@@ -26,3 +26,4 @@ claude mcp add dylogy \
 claude mcp list        # check it's registered
 claude mcp get dylogy  # check it's healthy
 ```
+# dylogy-mcp
