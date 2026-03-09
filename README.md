@@ -3,6 +3,8 @@
 MCP server that auto-generates tools from the Dylogy OpenAPI spec.
 Authenticates, fetches the spec, and exposes each API route as a callable tool.
 
+![Demo](demo.gif)
+
 ## Setup
 
 ```bash
