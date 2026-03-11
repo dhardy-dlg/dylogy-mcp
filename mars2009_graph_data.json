@@ -1,0 +1,3682 @@
+{
+  "createdAt": "2026-02-11T16:45:09.011834+00:00",
+  "updatedAt": "2026-02-11T16:45:09.011834+00:00",
+  "id": "01KH6SF8GKVTSWMJXZAC7CHY86",
+  "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+  "graphDefinitionId": "01KFNW5VTMH9TDNDA6A2DNMZKQ",
+  "graphData": {
+    "nodes": [
+      {
+        "nodeId": 2,
+        "properties": {
+          "dateTime": {
+            "value": "2007-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "3fb532df-e584-4ff0-851e-8661ac67a14a",
+                  "2e5ed5f7-b168-4e6e-84d5-d2c0cb9f1de8"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 2,
+                    "value": "2007-01-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "25fb3d35-4d7f-41c9-8b39-998e4d52bcdd",
+                  "68c521b3-ced6-4c5b-8445-c6846c8d2602",
+                  "c4830104-a2f4-461a-a983-a69af4006130",
+                  "13ede448-08ad-46c7-86ff-d89812daef6c",
+                  "bd22e17e-ece3-43f6-b236-e98e870df534",
+                  "d88155ac-2c80-4cc0-bd29-1a0454c6eb81",
+                  "db5dcae6-5b32-4fc5-bfe0-4112f79674ed",
+                  "1eef6fe6-6be8-45ba-944c-5da72ad19b78",
+                  "9029908b-df16-4c70-94a2-6246d50c69b5",
+                  "80eda2db-4db0-4b28-ad98-7dae39db8f18",
+                  "3fb532df-e584-4ff0-851e-8661ac67a14a",
+                  "2e5ed5f7-b168-4e6e-84d5-d2c0cb9f1de8"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 2,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "25fb3d35-4d7f-41c9-8b39-998e4d52bcdd",
+                  "68c521b3-ced6-4c5b-8445-c6846c8d2602",
+                  "c4830104-a2f4-461a-a983-a69af4006130",
+                  "13ede448-08ad-46c7-86ff-d89812daef6c",
+                  "bd22e17e-ece3-43f6-b236-e98e870df534",
+                  "d88155ac-2c80-4cc0-bd29-1a0454c6eb81",
+                  "db5dcae6-5b32-4fc5-bfe0-4112f79674ed",
+                  "1eef6fe6-6be8-45ba-944c-5da72ad19b78",
+                  "9029908b-df16-4c70-94a2-6246d50c69b5",
+                  "80eda2db-4db0-4b28-ad98-7dae39db8f18",
+                  "3fb532df-e584-4ff0-851e-8661ac67a14a",
+                  "2e5ed5f7-b168-4e6e-84d5-d2c0cb9f1de8"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 2,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Subprime mortgages expanded from 2.4% to 13% of total housing loans between 1998 and 2007, reaching 40% of new credits in 2007",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "25fb3d35-4d7f-41c9-8b39-998e4d52bcdd",
+                  "68c521b3-ced6-4c5b-8445-c6846c8d2602",
+                  "c4830104-a2f4-461a-a983-a69af4006130",
+                  "13ede448-08ad-46c7-86ff-d89812daef6c",
+                  "bd22e17e-ece3-43f6-b236-e98e870df534",
+                  "d88155ac-2c80-4cc0-bd29-1a0454c6eb81",
+                  "db5dcae6-5b32-4fc5-bfe0-4112f79674ed",
+                  "1eef6fe6-6be8-45ba-944c-5da72ad19b78",
+                  "9029908b-df16-4c70-94a2-6246d50c69b5",
+                  "80eda2db-4db0-4b28-ad98-7dae39db8f18",
+                  "3fb532df-e584-4ff0-851e-8661ac67a14a",
+                  "2e5ed5f7-b168-4e6e-84d5-d2c0cb9f1de8"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 2,
+                    "value": "Subprime mortgages expanded from 2.4% to 13% of total housing loans between 1998 and 2007, reaching 40% of new credits in 2007",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Expansion of subprime mortgages",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "25fb3d35-4d7f-41c9-8b39-998e4d52bcdd",
+                  "68c521b3-ced6-4c5b-8445-c6846c8d2602",
+                  "c4830104-a2f4-461a-a983-a69af4006130",
+                  "13ede448-08ad-46c7-86ff-d89812daef6c",
+                  "bd22e17e-ece3-43f6-b236-e98e870df534",
+                  "d88155ac-2c80-4cc0-bd29-1a0454c6eb81",
+                  "db5dcae6-5b32-4fc5-bfe0-4112f79674ed",
+                  "1eef6fe6-6be8-45ba-944c-5da72ad19b78",
+                  "9029908b-df16-4c70-94a2-6246d50c69b5",
+                  "80eda2db-4db0-4b28-ad98-7dae39db8f18",
+                  "3fb532df-e584-4ff0-851e-8661ac67a14a",
+                  "2e5ed5f7-b168-4e6e-84d5-d2c0cb9f1de8"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 2,
+                    "value": "Expansion of subprime mortgages",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 4,
+        "properties": {
+          "dateTime": {
+            "value": "2004-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "2a8c728c-0189-4fbf-a18a-7cad945fa978",
+                  "e739ae51-c8bc-4396-9730-76e948bcd5af",
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 4,
+                    "value": "2004-01-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "2a8c728c-0189-4fbf-a18a-7cad945fa978",
+                  "e739ae51-c8bc-4396-9730-76e948bcd5af",
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 4,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "SecondaryCause",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "2a8c728c-0189-4fbf-a18a-7cad945fa978",
+                  "e739ae51-c8bc-4396-9730-76e948bcd5af",
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 4,
+                    "value": "SecondaryCause",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Federal Reserve continued raising its policy rates starting in 2004, increasing monthly payments on variable-rate loans",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "2a8c728c-0189-4fbf-a18a-7cad945fa978",
+                  "e739ae51-c8bc-4396-9730-76e948bcd5af",
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 4,
+                    "value": "Federal Reserve continued raising its policy rates starting in 2004, increasing monthly payments on variable-rate loans",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Fed interest rate hikes",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "2a8c728c-0189-4fbf-a18a-7cad945fa978",
+                  "e739ae51-c8bc-4396-9730-76e948bcd5af",
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 4,
+                    "value": "Fed interest rate hikes",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 6,
+        "properties": {
+          "dateTime": {
+            "value": "2007-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "b78e9b58-4bfd-436c-b106-714788e91fa2",
+                  "7e1d66df-bf17-4d6d-a57e-68f3b894a9ea",
+                  "36b5a46c-7f84-41f6-9642-4ba81cd6f9f3",
+                  "8ccc3524-5f0f-48da-ab51-ac88d875d9f1"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 6,
+                    "value": "2007-01-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Collapse",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "16f1f3ae-26eb-49d7-bd16-327ae70debd9",
+                  "f63f5b90-0de7-4fbd-afe8-7c65dae1b9bd",
+                  "6e528e33-f856-482c-ad8f-c589cabc437f",
+                  "050331cb-6fbc-4320-911d-2e183d9c251e",
+                  "95623275-4070-4000-a5ad-f988b6d2d6da",
+                  "5d13cd1b-7621-4cd9-8972-50a337c6b5ad",
+                  "afae055b-a7b9-4a60-a565-1c1291362718",
+                  "665689de-d082-4e6b-9749-752f4bf6b516",
+                  "4cf2b5fa-33fb-4902-b1ab-bf089b16c77f",
+                  "2bde9ea4-890f-4ee8-a9c8-3d1c36ec1500",
+                  "d7a29793-5e0b-433b-bc8a-967a899dd157",
+                  "a0f0c524-9d4f-4249-98f1-b604061e9bb5",
+                  "dd5880b2-0d5c-4938-9856-1c3830e11cc1",
+                  "7562cc89-12a0-4399-8b48-10272b705111",
+                  "49396f20-7c8d-40e5-b147-78bc9a030de0",
+                  "ea5ea28a-ebb8-4a1a-94f9-2a0c448dacc2",
+                  "f6d63d71-1bd4-4809-9e43-dbce220e34f3",
+                  "e2040363-57ae-4994-bd00-dca6d197b722"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 6,
+                    "value": "Collapse",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "16f1f3ae-26eb-49d7-bd16-327ae70debd9",
+                  "f63f5b90-0de7-4fbd-afe8-7c65dae1b9bd",
+                  "6e528e33-f856-482c-ad8f-c589cabc437f",
+                  "050331cb-6fbc-4320-911d-2e183d9c251e",
+                  "95623275-4070-4000-a5ad-f988b6d2d6da",
+                  "5d13cd1b-7621-4cd9-8972-50a337c6b5ad",
+                  "afae055b-a7b9-4a60-a565-1c1291362718",
+                  "665689de-d082-4e6b-9749-752f4bf6b516",
+                  "4cf2b5fa-33fb-4902-b1ab-bf089b16c77f",
+                  "2bde9ea4-890f-4ee8-a9c8-3d1c36ec1500",
+                  "d7a29793-5e0b-433b-bc8a-967a899dd157",
+                  "a0f0c524-9d4f-4249-98f1-b604061e9bb5",
+                  "dd5880b2-0d5c-4938-9856-1c3830e11cc1",
+                  "7562cc89-12a0-4399-8b48-10272b705111",
+                  "49396f20-7c8d-40e5-b147-78bc9a030de0",
+                  "ea5ea28a-ebb8-4a1a-94f9-2a0c448dacc2",
+                  "f6d63d71-1bd4-4809-9e43-dbce220e34f3",
+                  "e2040363-57ae-4994-bd00-dca6d197b722"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 6,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Foreclosures increased housing supply leading to downward price spiral, causing more homeowners to default",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "16f1f3ae-26eb-49d7-bd16-327ae70debd9",
+                  "f63f5b90-0de7-4fbd-afe8-7c65dae1b9bd",
+                  "6e528e33-f856-482c-ad8f-c589cabc437f",
+                  "050331cb-6fbc-4320-911d-2e183d9c251e",
+                  "95623275-4070-4000-a5ad-f988b6d2d6da",
+                  "5d13cd1b-7621-4cd9-8972-50a337c6b5ad",
+                  "afae055b-a7b9-4a60-a565-1c1291362718",
+                  "665689de-d082-4e6b-9749-752f4bf6b516",
+                  "4cf2b5fa-33fb-4902-b1ab-bf089b16c77f",
+                  "2bde9ea4-890f-4ee8-a9c8-3d1c36ec1500",
+                  "d7a29793-5e0b-433b-bc8a-967a899dd157",
+                  "a0f0c524-9d4f-4249-98f1-b604061e9bb5",
+                  "dd5880b2-0d5c-4938-9856-1c3830e11cc1",
+                  "7562cc89-12a0-4399-8b48-10272b705111",
+                  "49396f20-7c8d-40e5-b147-78bc9a030de0",
+                  "ea5ea28a-ebb8-4a1a-94f9-2a0c448dacc2",
+                  "f6d63d71-1bd4-4809-9e43-dbce220e34f3",
+                  "e2040363-57ae-4994-bd00-dca6d197b722"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 6,
+                    "value": "Foreclosures increased housing supply leading to downward price spiral, causing more homeowners to default",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Self-sustained housing price decline",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "16f1f3ae-26eb-49d7-bd16-327ae70debd9",
+                  "f63f5b90-0de7-4fbd-afe8-7c65dae1b9bd",
+                  "6e528e33-f856-482c-ad8f-c589cabc437f",
+                  "050331cb-6fbc-4320-911d-2e183d9c251e",
+                  "95623275-4070-4000-a5ad-f988b6d2d6da",
+                  "5d13cd1b-7621-4cd9-8972-50a337c6b5ad",
+                  "afae055b-a7b9-4a60-a565-1c1291362718",
+                  "665689de-d082-4e6b-9749-752f4bf6b516",
+                  "4cf2b5fa-33fb-4902-b1ab-bf089b16c77f",
+                  "2bde9ea4-890f-4ee8-a9c8-3d1c36ec1500",
+                  "d7a29793-5e0b-433b-bc8a-967a899dd157",
+                  "a0f0c524-9d4f-4249-98f1-b604061e9bb5",
+                  "dd5880b2-0d5c-4938-9856-1c3830e11cc1",
+                  "7562cc89-12a0-4399-8b48-10272b705111",
+                  "49396f20-7c8d-40e5-b147-78bc9a030de0",
+                  "ea5ea28a-ebb8-4a1a-94f9-2a0c448dacc2",
+                  "f6d63d71-1bd4-4809-9e43-dbce220e34f3",
+                  "e2040363-57ae-4994-bd00-dca6d197b722"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 6,
+                    "value": "Self-sustained housing price decline",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 8,
+        "properties": {
+          "dateTime": {
+            "value": "2007-07-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "c525ce71-3a94-439e-8f48-bd1ab1f9c73a",
+                  "3cc8720c-2792-4bf6-8fdf-e5fa7f3b5545"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 7,
+                    "value": "2007-07-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "1b1a0d8e-c9f7-47d9-a91a-29beb48420d4",
+                  "b51d3991-e3cc-45b5-9f66-9f5a6b613ccb",
+                  "0fbcf3b3-eb69-4b38-85d1-089e53d0e021",
+                  "23a2ffda-6375-4c7a-b954-081b76303f6a",
+                  "f5055510-e249-4ad1-8861-7f7077d6762e",
+                  "8db17606-c241-4803-b77d-e248a14a0019",
+                  "333624d5-85ed-4b39-8284-9aee11a4e8b8",
+                  "a6dd9e2f-6501-4114-81f5-d80c0a657971",
+                  "2b292d6b-011d-4463-8909-0f4cd7ae3891",
+                  "d3448cd3-834d-4761-9b2b-19f883459c0f",
+                  "5770033a-eda3-4e50-8d22-e48d455e23b9",
+                  "952ee810-9295-40be-a4a7-554b3c8b7465",
+                  "f1dd6756-4cca-4fc7-a302-d78ffe95d605",
+                  "cb90612a-b2d6-499b-8457-6890bab344c6"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 7,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "1b1a0d8e-c9f7-47d9-a91a-29beb48420d4",
+                  "b51d3991-e3cc-45b5-9f66-9f5a6b613ccb",
+                  "0fbcf3b3-eb69-4b38-85d1-089e53d0e021",
+                  "23a2ffda-6375-4c7a-b954-081b76303f6a",
+                  "f5055510-e249-4ad1-8861-7f7077d6762e",
+                  "8db17606-c241-4803-b77d-e248a14a0019",
+                  "333624d5-85ed-4b39-8284-9aee11a4e8b8",
+                  "a6dd9e2f-6501-4114-81f5-d80c0a657971",
+                  "2b292d6b-011d-4463-8909-0f4cd7ae3891",
+                  "d3448cd3-834d-4761-9b2b-19f883459c0f",
+                  "5770033a-eda3-4e50-8d22-e48d455e23b9",
+                  "952ee810-9295-40be-a4a7-554b3c8b7465",
+                  "f1dd6756-4cca-4fc7-a302-d78ffe95d605",
+                  "cb90612a-b2d6-499b-8457-6890bab344c6"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 7,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Crisis of confidence between banks due to lack of transparency, banks refusing to exchange liquidity",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "1b1a0d8e-c9f7-47d9-a91a-29beb48420d4",
+                  "b51d3991-e3cc-45b5-9f66-9f5a6b613ccb",
+                  "0fbcf3b3-eb69-4b38-85d1-089e53d0e021",
+                  "23a2ffda-6375-4c7a-b954-081b76303f6a",
+                  "f5055510-e249-4ad1-8861-7f7077d6762e",
+                  "8db17606-c241-4803-b77d-e248a14a0019",
+                  "333624d5-85ed-4b39-8284-9aee11a4e8b8",
+                  "a6dd9e2f-6501-4114-81f5-d80c0a657971",
+                  "2b292d6b-011d-4463-8909-0f4cd7ae3891",
+                  "d3448cd3-834d-4761-9b2b-19f883459c0f",
+                  "5770033a-eda3-4e50-8d22-e48d455e23b9",
+                  "952ee810-9295-40be-a4a7-554b3c8b7465",
+                  "f1dd6756-4cca-4fc7-a302-d78ffe95d605",
+                  "cb90612a-b2d6-499b-8457-6890bab344c6"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 7,
+                    "value": "Banks became distrustful of each other due to lack of transparency, refusing to exchange liquidity among themselves",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Crisis of confidence between banks",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "1b1a0d8e-c9f7-47d9-a91a-29beb48420d4",
+                  "b51d3991-e3cc-45b5-9f66-9f5a6b613ccb",
+                  "0fbcf3b3-eb69-4b38-85d1-089e53d0e021",
+                  "23a2ffda-6375-4c7a-b954-081b76303f6a",
+                  "f5055510-e249-4ad1-8861-7f7077d6762e",
+                  "8db17606-c241-4803-b77d-e248a14a0019",
+                  "333624d5-85ed-4b39-8284-9aee11a4e8b8",
+                  "a6dd9e2f-6501-4114-81f5-d80c0a657971",
+                  "2b292d6b-011d-4463-8909-0f4cd7ae3891",
+                  "d3448cd3-834d-4761-9b2b-19f883459c0f",
+                  "5770033a-eda3-4e50-8d22-e48d455e23b9",
+                  "952ee810-9295-40be-a4a7-554b3c8b7465",
+                  "f1dd6756-4cca-4fc7-a302-d78ffe95d605",
+                  "cb90612a-b2d6-499b-8457-6890bab344c6"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 7,
+                    "value": "Crisis of confidence between banks",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 10,
+        "properties": {
+          "dateTime": {
+            "value": "2008-09-15T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 9,
+                    "value": "2008-09-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 1,
+                    "value": "2008-09-15T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 3,
+                    "value": "2008-09-12T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": true,
+                "blockIds": [
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "c1f99409-2ab7-4270-935e-4a0859dabcff",
+                  "da9e1005-b3e0-425c-9676-8f19e925431d",
+                  "7f527e83-2a98-49e1-b584-d61157ac9ee5",
+                  "48a90638-ce8d-4ad0-996a-f243bf5648cc",
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 9,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 1,
+                    "value": "Financial Failure",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 3,
+                    "value": "Bankruptcy",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "TriggerEvent",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "c1f99409-2ab7-4270-935e-4a0859dabcff",
+                  "da9e1005-b3e0-425c-9676-8f19e925431d",
+                  "7f527e83-2a98-49e1-b584-d61157ac9ee5",
+                  "48a90638-ce8d-4ad0-996a-f243bf5648cc",
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 9,
+                    "value": "TriggerEvent",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 1,
+                    "value": "TriggerEvent",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 3,
+                    "value": "TriggerEvent",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Investment bank Lehman Brothers filed for bankruptcy causing creditors difficulties and paralyzing interbank markets",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "c1f99409-2ab7-4270-935e-4a0859dabcff",
+                  "da9e1005-b3e0-425c-9676-8f19e925431d",
+                  "7f527e83-2a98-49e1-b584-d61157ac9ee5",
+                  "48a90638-ce8d-4ad0-996a-f243bf5648cc",
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "c5c08c36-fd6b-4408-8107-d0ad8ef8e898",
+                  "0b245e81-082e-416f-9f2b-d5985259ad7c",
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 9,
+                    "value": "Investment bank Lehman Brothers filed for bankruptcy causing creditors difficulties and paralyzing interbank markets",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 1,
+                    "value": "Bankruptcy of investment bank Lehman Brothers",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 3,
+                    "value": "Faillite de Lehman Brothers le 12 septembre 2008",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Lehman Brothers bankruptcy",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "c1f99409-2ab7-4270-935e-4a0859dabcff",
+                  "da9e1005-b3e0-425c-9676-8f19e925431d",
+                  "7f527e83-2a98-49e1-b584-d61157ac9ee5",
+                  "48a90638-ce8d-4ad0-996a-f243bf5648cc",
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 9,
+                    "value": "Lehman Brothers bankruptcy",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 1,
+                    "value": "Lehman Brothers bankruptcy",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 3,
+                    "value": "Faillite de Lehman Brothers",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 12,
+        "properties": {
+          "dateTime": {
+            "value": "2008-09-15T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "52e360c0-6512-40b1-a7bb-7d9c13f3e4ab",
+                  "4ae6c074-b0fc-4eb8-9a5a-daea45103ba1",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9",
+                  "80481216-9b74-477c-b430-2690a2430d42",
+                  "af955b89-6d55-4fb2-a970-2a3ccce0ec6c",
+                  "806b7f36-f784-4df5-be5f-e490b18587d7",
+                  "70b59561-55d0-40fb-b193-1a568d9cad56",
+                  "9ba5ec96-02c0-4b21-a27a-22a436a38072",
+                  "93faf707-d2b9-4380-8b8d-7b5104d8659c",
+                  "375f7a06-26d7-432e-aa1b-7147722da43d",
+                  "5daac5fe-3a18-4cd9-8576-48d004ad3b24",
+                  "a14e811e-9221-40d3-9c0b-c7d68aa493b7",
+                  "210ecd1c-b45c-4bb2-8c40-8169a67482d8",
+                  "49544d1b-efae-442b-a853-0be65d4260d9",
+                  "10db8034-9801-4940-b433-42ea54909d29",
+                  "cd6524e7-365a-4905-ab4d-9113fa3b337b",
+                  "87ca77f4-ccc7-4cae-8c1d-92c5d1b6b1b7",
+                  "7301fce3-9786-43f4-ae08-54dd96b6e992",
+                  "0bf49a62-ab25-487b-93cd-a5e587925f5e",
+                  "9c229f41-f4ba-4018-a951-ec545a540d56",
+                  "bb5fcfe6-303b-4c77-a3ce-2d20436fa3b0",
+                  "dfd72d68-3c29-45c1-8599-57ce46ace3bf",
+                  "750b5b90-3f7f-49e0-88e9-b1970cdad863"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 9,
+                    "value": "2008-07-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 7,
+                    "value": "2008-09-12T00:00:00",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 8,
+                    "value": "2008-09-12T00:00:00",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 8,
+                    "value": "2008-10-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 9,
+                    "value": "2008-10-01T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Trade contraction",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "9f53cb63-48a1-4fb3-8a8f-bab65b455f89",
+                  "f884a2ba-e80e-43a2-b5eb-f8d3238c7d4e",
+                  "3077e268-cb87-44c0-a30c-1bae7579adaf",
+                  "7100d9c6-51a0-4ef9-8cce-7ee3f7a8119f",
+                  "e8fb4d30-66fa-43c0-97d9-5496349f07c6",
+                  "2571feb2-ddd8-41c8-9073-1ddcc8a805b5",
+                  "52e360c0-6512-40b1-a7bb-7d9c13f3e4ab",
+                  "4ae6c074-b0fc-4eb8-9a5a-daea45103ba1",
+                  "1f2d0067-3419-4392-b02e-d46d01d87684",
+                  "15377b8f-7154-46f1-a5a9-8d8c7bcb579c",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9",
+                  "80481216-9b74-477c-b430-2690a2430d42",
+                  "af955b89-6d55-4fb2-a970-2a3ccce0ec6c",
+                  "375f7a06-26d7-432e-aa1b-7147722da43d",
+                  "5daac5fe-3a18-4cd9-8576-48d004ad3b24",
+                  "a14e811e-9221-40d3-9c0b-c7d68aa493b7",
+                  "210ecd1c-b45c-4bb2-8c40-8169a67482d8",
+                  "abea7529-f01e-43da-b55d-a7519dc39947",
+                  "9fa764b4-e0b0-48a5-b078-1e9761372989",
+                  "03c8a1bd-79e8-4898-be89-7d796ca263fd",
+                  "7acb20cd-ae08-4965-9c34-cf6aa9cc3abc",
+                  "806b7f36-f784-4df5-be5f-e490b18587d7",
+                  "70b59561-55d0-40fb-b193-1a568d9cad56",
+                  "9ba5ec96-02c0-4b21-a27a-22a436a38072",
+                  "93faf707-d2b9-4380-8b8d-7b5104d8659c",
+                  "49544d1b-efae-442b-a853-0be65d4260d9",
+                  "10db8034-9801-4940-b433-42ea54909d29",
+                  "cd6524e7-365a-4905-ab4d-9113fa3b337b",
+                  "87ca77f4-ccc7-4cae-8c1d-92c5d1b6b1b7",
+                  "9c229f41-f4ba-4018-a951-ec545a540d56",
+                  "bb5fcfe6-303b-4c77-a3ce-2d20436fa3b0",
+                  "dfd72d68-3c29-45c1-8599-57ce46ace3bf",
+                  "750b5b90-3f7f-49e0-88e9-b1970cdad863",
+                  "a2ca08d5-71da-4a78-8d6b-92602b142568",
+                  "8243538f-6105-4d09-b25f-b39dd1f26ad5"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 9,
+                    "value": "Commodity price change",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 7,
+                    "value": "Commodity Price Change",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 8,
+                    "value": "Currency Fluctuation",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 8,
+                    "value": "Trade contraction",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 9,
+                    "value": "Inventory Adjustment",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "IndirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "9f53cb63-48a1-4fb3-8a8f-bab65b455f89",
+                  "f884a2ba-e80e-43a2-b5eb-f8d3238c7d4e",
+                  "52e360c0-6512-40b1-a7bb-7d9c13f3e4ab",
+                  "4ae6c074-b0fc-4eb8-9a5a-daea45103ba1",
+                  "80481216-9b74-477c-b430-2690a2430d42",
+                  "af955b89-6d55-4fb2-a970-2a3ccce0ec6c",
+                  "375f7a06-26d7-432e-aa1b-7147722da43d",
+                  "5daac5fe-3a18-4cd9-8576-48d004ad3b24",
+                  "806b7f36-f784-4df5-be5f-e490b18587d7",
+                  "70b59561-55d0-40fb-b193-1a568d9cad56",
+                  "9ba5ec96-02c0-4b21-a27a-22a436a38072",
+                  "93faf707-d2b9-4380-8b8d-7b5104d8659c",
+                  "49544d1b-efae-442b-a853-0be65d4260d9",
+                  "10db8034-9801-4940-b433-42ea54909d29",
+                  "cd6524e7-365a-4905-ab4d-9113fa3b337b",
+                  "87ca77f4-ccc7-4cae-8c1d-92c5d1b6b1b7",
+                  "57fee94d-1bc8-4f17-9b78-953db29afaf2",
+                  "ead1fd6e-e2c5-4cd1-a2c7-8dc28ea83339",
+                  "a8b6ca10-08ae-4099-80e2-e5a79315077b",
+                  "24bb7ee9-7650-4ca0-b7df-691482fc613b",
+                  "3642035f-5973-453d-ac29-698e1dfdc0b5",
+                  "e5cd33a2-3d69-400e-bcce-5ba0011be5f8",
+                  "dfd72d68-3c29-45c1-8599-57ce46ace3bf",
+                  "750b5b90-3f7f-49e0-88e9-b1970cdad863",
+                  "a2ca08d5-71da-4a78-8d6b-92602b142568",
+                  "8243538f-6105-4d09-b25f-b39dd1f26ad5"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 9,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 7,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 8,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 8,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 9,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Sharp contraction in global trade, currency fluctuations, and oil price decline following the crisis",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "9f53cb63-48a1-4fb3-8a8f-bab65b455f89",
+                  "f884a2ba-e80e-43a2-b5eb-f8d3238c7d4e",
+                  "3077e268-cb87-44c0-a30c-1bae7579adaf",
+                  "7100d9c6-51a0-4ef9-8cce-7ee3f7a8119f",
+                  "e8fb4d30-66fa-43c0-97d9-5496349f07c6",
+                  "2571feb2-ddd8-41c8-9073-1ddcc8a805b5",
+                  "52e360c0-6512-40b1-a7bb-7d9c13f3e4ab",
+                  "4ae6c074-b0fc-4eb8-9a5a-daea45103ba1",
+                  "1f2d0067-3419-4392-b02e-d46d01d87684",
+                  "15377b8f-7154-46f1-a5a9-8d8c7bcb579c",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9",
+                  "80481216-9b74-477c-b430-2690a2430d42",
+                  "af955b89-6d55-4fb2-a970-2a3ccce0ec6c",
+                  "375f7a06-26d7-432e-aa1b-7147722da43d",
+                  "5daac5fe-3a18-4cd9-8576-48d004ad3b24",
+                  "abea7529-f01e-43da-b55d-a7519dc39947",
+                  "9fa764b4-e0b0-48a5-b078-1e9761372989",
+                  "806b7f36-f784-4df5-be5f-e490b18587d7",
+                  "70b59561-55d0-40fb-b193-1a568d9cad56",
+                  "9ba5ec96-02c0-4b21-a27a-22a436a38072",
+                  "93faf707-d2b9-4380-8b8d-7b5104d8659c",
+                  "a14e811e-9221-40d3-9c0b-c7d68aa493b7",
+                  "210ecd1c-b45c-4bb2-8c40-8169a67482d8",
+                  "7301fce3-9786-43f4-ae08-54dd96b6e992",
+                  "0bf49a62-ab25-487b-93cd-a5e587925f5e",
+                  "49544d1b-efae-442b-a853-0be65d4260d9",
+                  "10db8034-9801-4940-b433-42ea54909d29",
+                  "cd6524e7-365a-4905-ab4d-9113fa3b337b",
+                  "87ca77f4-ccc7-4cae-8c1d-92c5d1b6b1b7",
+                  "57fee94d-1bc8-4f17-9b78-953db29afaf2",
+                  "ead1fd6e-e2c5-4cd1-a2c7-8dc28ea83339",
+                  "a8b6ca10-08ae-4099-80e2-e5a79315077b",
+                  "24bb7ee9-7650-4ca0-b7df-691482fc613b",
+                  "3642035f-5973-453d-ac29-698e1dfdc0b5",
+                  "e5cd33a2-3d69-400e-bcce-5ba0011be5f8",
+                  "9c229f41-f4ba-4018-a951-ec545a540d56",
+                  "bb5fcfe6-303b-4c77-a3ce-2d20436fa3b0",
+                  "dfd72d68-3c29-45c1-8599-57ce46ace3bf",
+                  "750b5b90-3f7f-49e0-88e9-b1970cdad863",
+                  "a2ca08d5-71da-4a78-8d6b-92602b142568",
+                  "8243538f-6105-4d09-b25f-b39dd1f26ad5"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 9,
+                    "value": "Fall in oil prices from summer 2008 due to reduced demand",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 7,
+                    "value": "Baisse du prix du baril de p\u00e9trole suite \u00e0 la contraction de la demande mondiale",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 8,
+                    "value": "Forte d\u00e9pr\u00e9ciation de la livre sterling et appr\u00e9ciation du yen suite \u00e0 la crise",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 8,
+                    "value": "Sharp contraction in global trade and exports at end of 2008",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 9,
+                    "value": "Forts mouvements de d\u00e9stockage sous l'effet de la crise observ\u00e9s notamment en France",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Global trade and market disruptions",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "3077e268-cb87-44c0-a30c-1bae7579adaf",
+                  "7100d9c6-51a0-4ef9-8cce-7ee3f7a8119f",
+                  "e8fb4d30-66fa-43c0-97d9-5496349f07c6",
+                  "2571feb2-ddd8-41c8-9073-1ddcc8a805b5",
+                  "b9f49638-f57b-4348-b648-bb3ba84f51ca",
+                  "260ace3b-c440-4b57-bd98-3656d51f5965",
+                  "9f53cb63-48a1-4fb3-8a8f-bab65b455f89",
+                  "f884a2ba-e80e-43a2-b5eb-f8d3238c7d4e",
+                  "52e360c0-6512-40b1-a7bb-7d9c13f3e4ab",
+                  "4ae6c074-b0fc-4eb8-9a5a-daea45103ba1",
+                  "99ab96f4-d67d-42bb-aa03-3d4addffff39",
+                  "5e0ce307-595a-45fe-bc75-5a5b49a1f233",
+                  "1f2d0067-3419-4392-b02e-d46d01d87684",
+                  "15377b8f-7154-46f1-a5a9-8d8c7bcb579c",
+                  "bf4887f2-55fe-49d8-989e-8e781e31b85e",
+                  "ed50ce99-acdb-48e2-bdc9-a5e53b4a5fa9",
+                  "80481216-9b74-477c-b430-2690a2430d42",
+                  "af955b89-6d55-4fb2-a970-2a3ccce0ec6c",
+                  "375f7a06-26d7-432e-aa1b-7147722da43d",
+                  "5daac5fe-3a18-4cd9-8576-48d004ad3b24",
+                  "abea7529-f01e-43da-b55d-a7519dc39947",
+                  "9fa764b4-e0b0-48a5-b078-1e9761372989",
+                  "806b7f36-f784-4df5-be5f-e490b18587d7",
+                  "70b59561-55d0-40fb-b193-1a568d9cad56",
+                  "9ba5ec96-02c0-4b21-a27a-22a436a38072",
+                  "93faf707-d2b9-4380-8b8d-7b5104d8659c",
+                  "a14e811e-9221-40d3-9c0b-c7d68aa493b7",
+                  "210ecd1c-b45c-4bb2-8c40-8169a67482d8",
+                  "7301fce3-9786-43f4-ae08-54dd96b6e992",
+                  "0bf49a62-ab25-487b-93cd-a5e587925f5e",
+                  "523ddb96-94ee-489b-97d9-202a591ed0b4",
+                  "a7b40d41-9ff2-4f27-b9db-a2131de3216d",
+                  "ffb88cf9-9854-47a7-8330-415a28659474",
+                  "e190fee1-467a-4ee0-9807-8f0f6f216a62",
+                  "ee9441b3-16ba-4f22-ae50-f34632e1f3aa",
+                  "ecc68c60-d756-48ec-9064-71987a519cbf",
+                  "49544d1b-efae-442b-a853-0be65d4260d9",
+                  "10db8034-9801-4940-b433-42ea54909d29",
+                  "cd6524e7-365a-4905-ab4d-9113fa3b337b",
+                  "87ca77f4-ccc7-4cae-8c1d-92c5d1b6b1b7",
+                  "57fee94d-1bc8-4f17-9b78-953db29afaf2",
+                  "ead1fd6e-e2c5-4cd1-a2c7-8dc28ea83339",
+                  "a8b6ca10-08ae-4099-80e2-e5a79315077b",
+                  "24bb7ee9-7650-4ca0-b7df-691482fc613b",
+                  "3642035f-5973-453d-ac29-698e1dfdc0b5",
+                  "e5cd33a2-3d69-400e-bcce-5ba0011be5f8",
+                  "9c229f41-f4ba-4018-a951-ec545a540d56",
+                  "bb5fcfe6-303b-4c77-a3ce-2d20436fa3b0",
+                  "dfd72d68-3c29-45c1-8599-57ce46ace3bf",
+                  "750b5b90-3f7f-49e0-88e9-b1970cdad863",
+                  "a2ca08d5-71da-4a78-8d6b-92602b142568",
+                  "8243538f-6105-4d09-b25f-b39dd1f26ad5"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 9,
+                    "value": "Oil price decline",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 7,
+                    "value": "Baisse du prix du p\u00e9trole",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 8,
+                    "value": "D\u00e9pr\u00e9ciation de la livre sterling et appr\u00e9ciation du yen",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 8,
+                    "value": "Collapse of international trade",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 9,
+                    "value": "Mouvements de d\u00e9stockage",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 14,
+        "properties": {
+          "dateTime": {
+            "value": "2007-08-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "62c564b2-764f-4f26-9eb2-c96827dd697b",
+                  "468eb7e1-121b-46ec-b423-e03aa45e8d23",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 10,
+                    "value": "2007-08-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 6,
+                    "value": "2007-09-01T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Monetary Policy Intervention",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "62c564b2-764f-4f26-9eb2-c96827dd697b",
+                  "468eb7e1-121b-46ec-b423-e03aa45e8d23",
+                  "a7531c97-f6dd-424b-a980-61ea5545cc88",
+                  "9b140a02-a68b-4675-8573-8904b5a727a7",
+                  "d9a1f4f6-7e03-4ba1-9b22-8c46756975b7",
+                  "fbf1e1b7-e76d-4648-a17b-d18ee0555e2c",
+                  "f1764cf8-c041-4cb7-b47a-2fa741a94034",
+                  "57b6e4c3-1771-4bba-b1ae-8efddf297887",
+                  "7e4606e1-27d4-4234-95d7-3d00b71e0b80",
+                  "059df64d-fb78-4985-ae5c-05346d9a4290",
+                  "7807f45f-dfb7-4e7f-bf1c-650e0d1afb27",
+                  "2eec67f6-4b11-4700-9484-2e0bd4df152e",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 10,
+                    "value": "Monetary Policy Intervention",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 6,
+                    "value": "Monetary Policy",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "MitigationAction",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "62c564b2-764f-4f26-9eb2-c96827dd697b",
+                  "468eb7e1-121b-46ec-b423-e03aa45e8d23",
+                  "a7531c97-f6dd-424b-a980-61ea5545cc88",
+                  "9b140a02-a68b-4675-8573-8904b5a727a7",
+                  "d9a1f4f6-7e03-4ba1-9b22-8c46756975b7",
+                  "fbf1e1b7-e76d-4648-a17b-d18ee0555e2c",
+                  "f1764cf8-c041-4cb7-b47a-2fa741a94034",
+                  "57b6e4c3-1771-4bba-b1ae-8efddf297887",
+                  "7e4606e1-27d4-4234-95d7-3d00b71e0b80",
+                  "059df64d-fb78-4985-ae5c-05346d9a4290",
+                  "7807f45f-dfb7-4e7f-bf1c-650e0d1afb27",
+                  "2eec67f6-4b11-4700-9484-2e0bd4df152e",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 10,
+                    "value": "MitigationAction",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 6,
+                    "value": "MitigationAction",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Central banks injected liquidity and cut rates to historic lows since August 2007",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "62c564b2-764f-4f26-9eb2-c96827dd697b",
+                  "468eb7e1-121b-46ec-b423-e03aa45e8d23",
+                  "a7531c97-f6dd-424b-a980-61ea5545cc88",
+                  "9b140a02-a68b-4675-8573-8904b5a727a7",
+                  "d9a1f4f6-7e03-4ba1-9b22-8c46756975b7",
+                  "fbf1e1b7-e76d-4648-a17b-d18ee0555e2c",
+                  "f1764cf8-c041-4cb7-b47a-2fa741a94034",
+                  "57b6e4c3-1771-4bba-b1ae-8efddf297887",
+                  "7e4606e1-27d4-4234-95d7-3d00b71e0b80",
+                  "059df64d-fb78-4985-ae5c-05346d9a4290",
+                  "7807f45f-dfb7-4e7f-bf1c-650e0d1afb27",
+                  "2eec67f6-4b11-4700-9484-2e0bd4df152e",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 10,
+                    "value": "Central banks injected liquidity and cut rates to historic lows since August 2007",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 6,
+                    "value": "Les principales banques centrales ont commenc\u00e9 \u00e0 baisser leurs taux en r\u00e9ponse \u00e0 la crise",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Central bank interventions and rate cuts",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "62c564b2-764f-4f26-9eb2-c96827dd697b",
+                  "468eb7e1-121b-46ec-b423-e03aa45e8d23",
+                  "a7531c97-f6dd-424b-a980-61ea5545cc88",
+                  "9b140a02-a68b-4675-8573-8904b5a727a7",
+                  "d9a1f4f6-7e03-4ba1-9b22-8c46756975b7",
+                  "fbf1e1b7-e76d-4648-a17b-d18ee0555e2c",
+                  "f1764cf8-c041-4cb7-b47a-2fa741a94034",
+                  "57b6e4c3-1771-4bba-b1ae-8efddf297887",
+                  "7e4606e1-27d4-4234-95d7-3d00b71e0b80",
+                  "059df64d-fb78-4985-ae5c-05346d9a4290",
+                  "7807f45f-dfb7-4e7f-bf1c-650e0d1afb27",
+                  "2eec67f6-4b11-4700-9484-2e0bd4df152e",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 10,
+                    "value": "Central bank interventions and rate cuts",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 6,
+                    "value": "Baisse des taux directeurs par les banques centrales",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 1,
+        "properties": {
+          "dateTime": {
+            "value": "2000-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "18cb02f0-3db3-4b54-a5f6-8fc8916228df",
+                  "cd90faf9-715c-4540-8140-85985e8a3948",
+                  "7807f45f-dfb7-4e7f-bf1c-650e0d1afb27",
+                  "2eec67f6-4b11-4700-9484-2e0bd4df152e",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 1,
+                    "value": "2000-01-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 1,
+                    "value": "2007-08-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 1,
+                    "value": "2007-09-01T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Defective workmanship",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "18cb02f0-3db3-4b54-a5f6-8fc8916228df",
+                  "cd90faf9-715c-4540-8140-85985e8a3948",
+                  "f39d0ff6-1765-4923-ae3b-2394355f2cb2",
+                  "7040bb7f-0541-4f57-8063-9d0df31163f0",
+                  "c1388c37-5be6-4b65-8e8a-7849df1b2929",
+                  "7cfc1870-eb72-4d77-bc54-45392ecfb65d",
+                  "a32534bc-dff9-4f63-854d-b1106374e149",
+                  "49b06bb2-43f5-4d34-a502-b0b3e109b026",
+                  "edbb8afe-844c-481e-bcb2-981fa5283cb2",
+                  "316bde80-fb37-4cae-9303-493b596a6402",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 1,
+                    "value": "Defective workmanship",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 1,
+                    "value": "Financial crisis",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 1,
+                    "value": "Financial Crisis",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "PrimaryCause",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "18cb02f0-3db3-4b54-a5f6-8fc8916228df",
+                  "cd90faf9-715c-4540-8140-85985e8a3948",
+                  "12f6e9f8-e4ab-471f-888f-d9a9b946451e",
+                  "7fe991dd-51cb-42c1-b122-63da533ae0f5",
+                  "7e3ad1e2-7909-4813-8ede-5f0829f53642",
+                  "d62510e0-5ea7-4f8c-89c0-4c18f58318b4",
+                  "03c8a1bd-79e8-4898-be89-7d796ca263fd",
+                  "7acb20cd-ae08-4965-9c34-cf6aa9cc3abc"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 1,
+                    "value": "PrimaryCause",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 1,
+                    "value": "PrimaryCause",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 1,
+                    "value": "PrimaryCause",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Fundamental underestimation of risk in early 2000s by financial institutions, investors, regulators and rating agencies leading to subprime mortgage expansion",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "18cb02f0-3db3-4b54-a5f6-8fc8916228df",
+                  "cd90faf9-715c-4540-8140-85985e8a3948",
+                  "6106388a-3a0f-42a5-96ce-8d744054ac27",
+                  "8d0a8ee4-3a67-4ed3-a128-9f5089f422ab",
+                  "12f6e9f8-e4ab-471f-888f-d9a9b946451e",
+                  "7fe991dd-51cb-42c1-b122-63da533ae0f5",
+                  "7e3ad1e2-7909-4813-8ede-5f0829f53642",
+                  "d62510e0-5ea7-4f8c-89c0-4c18f58318b4",
+                  "c1388c37-5be6-4b65-8e8a-7849df1b2929",
+                  "7cfc1870-eb72-4d77-bc54-45392ecfb65d",
+                  "03c8a1bd-79e8-4898-be89-7d796ca263fd",
+                  "7acb20cd-ae08-4965-9c34-cf6aa9cc3abc",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 1,
+                    "value": "Fundamental underestimation of risk in early 2000s by financial institutions, investors, regulators and rating agencies",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 1,
+                    "value": "Financial and housing crisis originating from subprime mortgages",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 1,
+                    "value": "Crise des subprimes d\u00e9clenchant une crise financi\u00e8re",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Underestimation of risk and subprime crisis",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "18cb02f0-3db3-4b54-a5f6-8fc8916228df",
+                  "cd90faf9-715c-4540-8140-85985e8a3948",
+                  "6106388a-3a0f-42a5-96ce-8d744054ac27",
+                  "8d0a8ee4-3a67-4ed3-a128-9f5089f422ab",
+                  "12f6e9f8-e4ab-471f-888f-d9a9b946451e",
+                  "7fe991dd-51cb-42c1-b122-63da533ae0f5",
+                  "4b8d9db2-79d9-45a3-8109-dd5ac5ec1c83",
+                  "53ea8d3c-fb88-464d-a460-b7e57f6b8c03",
+                  "523ddb96-94ee-489b-97d9-202a591ed0b4",
+                  "a7b40d41-9ff2-4f27-b9db-a2131de3216d",
+                  "03c8a1bd-79e8-4898-be89-7d796ca263fd",
+                  "7acb20cd-ae08-4965-9c34-cf6aa9cc3abc"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 1,
+                    "value": "Underestimation of risk by financial institutions",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 1,
+                    "value": "Subprime crisis",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 1,
+                    "value": "Crise des subprimes",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 3,
+        "properties": {
+          "dateTime": {
+            "value": "2006-06-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "da52f303-aa6a-4d5a-a58b-a2cfb6235f6f",
+                  "e14ece46-c263-47d9-a65f-9ed4c5f52e6f",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669",
+                  "7a28267b-f4ea-4832-a54d-cb9be000f247",
+                  "a2566a76-e649-41ed-97ae-575d5c466cb7",
+                  "72349bd5-6ed6-45e3-98df-2b357ea2fd21",
+                  "1ad20ab5-5e8e-4694-8af1-622f4a91084b"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 3,
+                    "value": "2006-06-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 3,
+                    "value": "2008-01-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 4,
+                    "value": "2008-01-01T00:00:00",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Collapse",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "d06099cf-4f08-48ab-956d-8d5a1d0a80f4",
+                  "88cd927f-4a19-4109-b6aa-20a6af647344",
+                  "da52f303-aa6a-4d5a-a58b-a2cfb6235f6f",
+                  "e14ece46-c263-47d9-a65f-9ed4c5f52e6f",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "dfa39c06-084e-4922-9a32-8f468cbbac6a",
+                  "8777951b-c62c-4695-a00e-5019a2f82f00",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "7a28267b-f4ea-4832-a54d-cb9be000f247",
+                  "a2566a76-e649-41ed-97ae-575d5c466cb7",
+                  "72349bd5-6ed6-45e3-98df-2b357ea2fd21",
+                  "1ad20ab5-5e8e-4694-8af1-622f4a91084b"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 3,
+                    "value": "Collapse",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 3,
+                    "value": "Real estate crisis",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 4,
+                    "value": "Property Damage",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "TriggerEvent",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "d06099cf-4f08-48ab-956d-8d5a1d0a80f4",
+                  "88cd927f-4a19-4109-b6aa-20a6af647344",
+                  "da52f303-aa6a-4d5a-a58b-a2cfb6235f6f",
+                  "e14ece46-c263-47d9-a65f-9ed4c5f52e6f",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "8c9fa1e3-c1b1-420f-8d54-2a130c003939",
+                  "26d6dbe8-b4b9-4b94-abdb-c565a9f05fa6",
+                  "afa06dd2-c90e-4b23-9ce7-8ba1ae40564f",
+                  "f9c8f768-4854-41c5-ae32-82388f477e6e",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669",
+                  "7a28267b-f4ea-4832-a54d-cb9be000f247",
+                  "a2566a76-e649-41ed-97ae-575d5c466cb7",
+                  "72349bd5-6ed6-45e3-98df-2b357ea2fd21",
+                  "1ad20ab5-5e8e-4694-8af1-622f4a91084b"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 3,
+                    "value": "TriggerEvent",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 3,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 4,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Housing prices plateaued then fell starting mid-2006, showing the most notable drop in over a century",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "d06099cf-4f08-48ab-956d-8d5a1d0a80f4",
+                  "88cd927f-4a19-4109-b6aa-20a6af647344",
+                  "da52f303-aa6a-4d5a-a58b-a2cfb6235f6f",
+                  "e14ece46-c263-47d9-a65f-9ed4c5f52e6f",
+                  "8c9fa1e3-c1b1-420f-8d54-2a130c003939",
+                  "26d6dbe8-b4b9-4b94-abdb-c565a9f05fa6",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "dfa39c06-084e-4922-9a32-8f468cbbac6a",
+                  "8777951b-c62c-4695-a00e-5019a2f82f00",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "afa06dd2-c90e-4b23-9ce7-8ba1ae40564f",
+                  "f9c8f768-4854-41c5-ae32-82388f477e6e",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669",
+                  "7a28267b-f4ea-4832-a54d-cb9be000f247",
+                  "a2566a76-e649-41ed-97ae-575d5c466cb7",
+                  "72349bd5-6ed6-45e3-98df-2b357ea2fd21",
+                  "1ad20ab5-5e8e-4694-8af1-622f4a91084b"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 3,
+                    "value": "Housing prices plateaued then fell starting mid-2006, showing the most notable drop in over a century",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 3,
+                    "value": "Decline in housing prices and real estate market crisis",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 4,
+                    "value": "Baisse tendancielle des prix de l'immobilier aux \u00c9tats-Unis, au Royaume-Uni et en France",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "US housing market peak and reversal",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "d06099cf-4f08-48ab-956d-8d5a1d0a80f4",
+                  "88cd927f-4a19-4109-b6aa-20a6af647344",
+                  "da52f303-aa6a-4d5a-a58b-a2cfb6235f6f",
+                  "e14ece46-c263-47d9-a65f-9ed4c5f52e6f",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "4546d679-2bcb-4186-8bb0-7484bf91e5ee",
+                  "941a22f1-bb76-41be-afc0-e9e18bb13293",
+                  "3dba77ec-7c66-4a4f-a448-e9a40096ec0a",
+                  "6440555a-1adb-4818-a1bd-2d97e836b295",
+                  "dfa39c06-084e-4922-9a32-8f468cbbac6a",
+                  "8777951b-c62c-4695-a00e-5019a2f82f00",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "8c9fa1e3-c1b1-420f-8d54-2a130c003939",
+                  "26d6dbe8-b4b9-4b94-abdb-c565a9f05fa6",
+                  "afa06dd2-c90e-4b23-9ce7-8ba1ae40564f",
+                  "f9c8f768-4854-41c5-ae32-82388f477e6e",
+                  "7a28267b-f4ea-4832-a54d-cb9be000f247",
+                  "a2566a76-e649-41ed-97ae-575d5c466cb7",
+                  "72349bd5-6ed6-45e3-98df-2b357ea2fd21",
+                  "1ad20ab5-5e8e-4694-8af1-622f4a91084b"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 3,
+                    "value": "US housing market peak and reversal",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 3,
+                    "value": "Housing market downturn",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 4,
+                    "value": "Baisse des prix immobiliers",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 5,
+        "properties": {
+          "dateTime": {
+            "value": "2007-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "b78e9b58-4bfd-436c-b106-714788e91fa2",
+                  "7e1d66df-bf17-4d6d-a57e-68f3b894a9ea",
+                  "36b5a46c-7f84-41f6-9642-4ba81cd6f9f3",
+                  "8ccc3524-5f0f-48da-ab51-ac88d875d9f1"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 5,
+                    "value": "2007-01-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49",
+                  "c378006c-f70b-4393-8579-5f091e46e641",
+                  "4b2bb0eb-5be4-4362-b937-3749feccb742",
+                  "4fd4c717-015f-4566-9bdb-12c8d0a10a0f",
+                  "4a5a244c-5ace-4ae6-a64d-c664d84ccb48"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 5,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49",
+                  "c378006c-f70b-4393-8579-5f091e46e641",
+                  "4b2bb0eb-5be4-4362-b937-3749feccb742",
+                  "4fd4c717-015f-4566-9bdb-12c8d0a10a0f",
+                  "4a5a244c-5ace-4ae6-a64d-c664d84ccb48"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 5,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Payment defaults multiplied among subprime and prime loans, followed by increase in foreclosure procedures",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49",
+                  "c378006c-f70b-4393-8579-5f091e46e641",
+                  "4b2bb0eb-5be4-4362-b937-3749feccb742",
+                  "4fd4c717-015f-4566-9bdb-12c8d0a10a0f",
+                  "4a5a244c-5ace-4ae6-a64d-c664d84ccb48"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 5,
+                    "value": "Payment defaults multiplied among subprime and prime loans, followed by increase in foreclosure procedures",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Multiplication of payment defaults and foreclosures",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "7f38a9d8-8b29-4f7a-a15f-b466190846e2",
+                  "488c17f9-7593-4997-8dde-fb86244c8e49",
+                  "c378006c-f70b-4393-8579-5f091e46e641",
+                  "4b2bb0eb-5be4-4362-b937-3749feccb742",
+                  "4fd4c717-015f-4566-9bdb-12c8d0a10a0f",
+                  "4a5a244c-5ace-4ae6-a64d-c664d84ccb48"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 5,
+                    "value": "Multiplication of payment defaults and foreclosures",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 7,
+        "properties": {
+          "dateTime": {
+            "value": "2007-08-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "41517ca0-1b03-477f-b1be-261ae43c5d1c",
+                  "0751bac0-ab75-468a-af85-2733aabd7dd7",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "6514251f-3291-4d6b-91b9-8a06d75f742c",
+                  "96ff4b6e-e99f-422b-82ba-fb3ed34c8278",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "9d7bc84d-08bb-4b8d-a41e-a67bd951e5f7",
+                  "553c6d23-f102-4de3-89c1-b5e43aef5e54",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 7,
+                    "value": "2007-08-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 4,
+                    "value": "2008-01-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 5,
+                    "value": "2007-09-01T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Credit Loss",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "41517ca0-1b03-477f-b1be-261ae43c5d1c",
+                  "0751bac0-ab75-468a-af85-2733aabd7dd7",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "3d53fa78-0d29-4912-afaf-ade6f543a91a",
+                  "494eb132-5bb9-4e04-bd29-be08040d43a3",
+                  "774e08ff-6ea1-4be6-ae67-3bc5fac73776",
+                  "18cc1cb1-25b8-4579-8f80-486f4afbf209",
+                  "24aff192-950d-4fe9-a894-66167316c7ff",
+                  "8e14269b-0e68-4195-8563-6784282f003b",
+                  "c1388c37-5be6-4b65-8e8a-7849df1b2929",
+                  "7cfc1870-eb72-4d77-bc54-45392ecfb65d",
+                  "9d7bc84d-08bb-4b8d-a41e-a67bd951e5f7",
+                  "553c6d23-f102-4de3-89c1-b5e43aef5e54",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 7,
+                    "value": "Credit Loss",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 4,
+                    "value": "Credit tightening",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 5,
+                    "value": "Credit Restriction",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "41517ca0-1b03-477f-b1be-261ae43c5d1c",
+                  "0751bac0-ab75-468a-af85-2733aabd7dd7",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "3d53fa78-0d29-4912-afaf-ade6f543a91a",
+                  "494eb132-5bb9-4e04-bd29-be08040d43a3",
+                  "774e08ff-6ea1-4be6-ae67-3bc5fac73776",
+                  "18cc1cb1-25b8-4579-8f80-486f4afbf209",
+                  "c1388c37-5be6-4b65-8e8a-7849df1b2929",
+                  "7cfc1870-eb72-4d77-bc54-45392ecfb65d",
+                  "9d7bc84d-08bb-4b8d-a41e-a67bd951e5f7",
+                  "553c6d23-f102-4de3-89c1-b5e43aef5e54",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 7,
+                    "value": "PrimaryCause",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 4,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 5,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Banks suffered direct exposure to subprime loans and household defaults, with tightening of credit conditions",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "41517ca0-1b03-477f-b1be-261ae43c5d1c",
+                  "0751bac0-ab75-468a-af85-2733aabd7dd7",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "3d53fa78-0d29-4912-afaf-ade6f543a91a",
+                  "494eb132-5bb9-4e04-bd29-be08040d43a3",
+                  "774e08ff-6ea1-4be6-ae67-3bc5fac73776",
+                  "18cc1cb1-25b8-4579-8f80-486f4afbf209",
+                  "9954a561-a5bd-46ef-8097-c8774227887e",
+                  "d7040337-3602-4549-a142-6d78db62002b",
+                  "ecc27520-a8cf-4861-9f2b-75a0da3f4d15",
+                  "d05dba2e-8ab8-4570-9e88-671a322935c8",
+                  "2399a4a4-98c1-4828-a79f-97bb61e94334",
+                  "7e816bd4-6549-4fc7-9659-3ea984adf345",
+                  "dfa39c06-084e-4922-9a32-8f468cbbac6a",
+                  "8777951b-c62c-4695-a00e-5019a2f82f00",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "6514251f-3291-4d6b-91b9-8a06d75f742c",
+                  "96ff4b6e-e99f-422b-82ba-fb3ed34c8278",
+                  "50b612d9-6484-4632-af6b-252ac361d041",
+                  "57ac88bb-24b2-44df-8732-e06533cf0e9b",
+                  "f491a04e-224e-4c3b-9fee-acf1f8e8ec53",
+                  "5a4ef406-7a59-49e8-b92e-be15afef1119",
+                  "9d7bc84d-08bb-4b8d-a41e-a67bd951e5f7",
+                  "553c6d23-f102-4de3-89c1-b5e43aef5e54",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 7,
+                    "value": "Banks suffered direct exposure to subprime loans and household defaults",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 4,
+                    "value": "Tightening of credit conditions and lending standards by banks",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 5,
+                    "value": "Augmentation forte des primes de financement externe appliqu\u00e9es aux cr\u00e9dits",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Bank exposure and credit crisis",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "41517ca0-1b03-477f-b1be-261ae43c5d1c",
+                  "0751bac0-ab75-468a-af85-2733aabd7dd7",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "3d53fa78-0d29-4912-afaf-ade6f543a91a",
+                  "494eb132-5bb9-4e04-bd29-be08040d43a3",
+                  "774e08ff-6ea1-4be6-ae67-3bc5fac73776",
+                  "18cc1cb1-25b8-4579-8f80-486f4afbf209",
+                  "9954a561-a5bd-46ef-8097-c8774227887e",
+                  "d7040337-3602-4549-a142-6d78db62002b",
+                  "ecc27520-a8cf-4861-9f2b-75a0da3f4d15",
+                  "d05dba2e-8ab8-4570-9e88-671a322935c8",
+                  "2399a4a4-98c1-4828-a79f-97bb61e94334",
+                  "7e816bd4-6549-4fc7-9659-3ea984adf345",
+                  "dfa39c06-084e-4922-9a32-8f468cbbac6a",
+                  "8777951b-c62c-4695-a00e-5019a2f82f00",
+                  "1731b4c6-e23a-4800-a5e5-26677945dce8",
+                  "6a950a73-307f-44a8-99d8-3aac48e9a052",
+                  "0c3f952c-2c82-4cef-a0a1-ce953ea41649",
+                  "87919359-037f-48cb-a3c6-30e9125bc3ae",
+                  "4b7fc935-8356-420a-b4fd-e1ef1f4e9cf5",
+                  "c04d96e1-daca-4d08-826f-6630378a6833",
+                  "6514251f-3291-4d6b-91b9-8a06d75f742c",
+                  "96ff4b6e-e99f-422b-82ba-fb3ed34c8278",
+                  "24aff192-950d-4fe9-a894-66167316c7ff",
+                  "8e14269b-0e68-4195-8563-6784282f003b",
+                  "50b612d9-6484-4632-af6b-252ac361d041",
+                  "57ac88bb-24b2-44df-8732-e06533cf0e9b",
+                  "f491a04e-224e-4c3b-9fee-acf1f8e8ec53",
+                  "5a4ef406-7a59-49e8-b92e-be15afef1119",
+                  "9d7bc84d-08bb-4b8d-a41e-a67bd951e5f7",
+                  "553c6d23-f102-4de3-89c1-b5e43aef5e54",
+                  "c8f47503-dacf-4016-8fb2-b9b637e26f3e",
+                  "43398397-1310-4a3b-817f-2f9d48173de0"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 7,
+                    "value": "Bank exposure to subprime loans",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 4,
+                    "value": "Credit restrictions",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 5,
+                    "value": "Hausse des primes de financement externe",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 9,
+        "properties": {
+          "dateTime": {
+            "value": "2007-07-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "edf62962-7dca-438f-8358-0bd490276036",
+                  "1313325c-c873-4a99-a42e-e72cdc8cd0a0",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "f03baf71-05f3-4472-98b5-5a25e9ef6b17",
+                  "581a59f2-a229-441a-8f05-60e23e9a09bb"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 8,
+                    "value": "2007-07-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 8,
+                    "value": "2007-08-01T00:00:00Z",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Asset Depreciation",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "815caa4a-0cba-443d-af7c-ca233773c674",
+                  "5151cbce-3c27-4670-898f-2746221bd00f",
+                  "ff5bc11d-d4f4-48e2-8f7b-eb63376dd22a",
+                  "351d8943-fce9-4ea7-b8a2-122cbe5f4797",
+                  "f34f4296-1a41-4fdc-9f2c-28ff0efcb263",
+                  "be23b28a-a941-4c45-9b14-fc7285f4e276",
+                  "edf62962-7dca-438f-8358-0bd490276036",
+                  "1313325c-c873-4a99-a42e-e72cdc8cd0a0",
+                  "377fbf11-b136-492d-a109-4c457e6d2ea9",
+                  "dada30cd-54e9-4262-83cf-2b446c15cfd4",
+                  "2cb1430c-f232-472c-80eb-17fd97fe6b55",
+                  "37326e3d-fbc9-4aaa-b75d-3b8da00c6936",
+                  "0893e9fe-0fe0-4bf3-827d-d201b3aa54f8",
+                  "6ad781ef-dad5-4f8a-99b2-1802ee95b93f",
+                  "ae104d52-3c09-4dbf-964f-fae72f16e346",
+                  "826172c7-994a-4160-bd1a-213dcbcea2a0",
+                  "72531496-fa6b-4fd6-9a70-ad3a7ec89829",
+                  "39e5da47-14ea-4742-9a15-bc80ed4345d2",
+                  "5498c6a6-1d01-4f14-98e4-2d0a187b783f",
+                  "6c35a37d-57f6-409c-9886-850c4d675add",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "f03baf71-05f3-4472-98b5-5a25e9ef6b17",
+                  "581a59f2-a229-441a-8f05-60e23e9a09bb"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 8,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 8,
+                    "value": "Asset Depreciation",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "815caa4a-0cba-443d-af7c-ca233773c674",
+                  "5151cbce-3c27-4670-898f-2746221bd00f",
+                  "ff5bc11d-d4f4-48e2-8f7b-eb63376dd22a",
+                  "351d8943-fce9-4ea7-b8a2-122cbe5f4797",
+                  "f34f4296-1a41-4fdc-9f2c-28ff0efcb263",
+                  "be23b28a-a941-4c45-9b14-fc7285f4e276",
+                  "edf62962-7dca-438f-8358-0bd490276036",
+                  "1313325c-c873-4a99-a42e-e72cdc8cd0a0",
+                  "377fbf11-b136-492d-a109-4c457e6d2ea9",
+                  "dada30cd-54e9-4262-83cf-2b446c15cfd4",
+                  "2cb1430c-f232-472c-80eb-17fd97fe6b55",
+                  "37326e3d-fbc9-4aaa-b75d-3b8da00c6936",
+                  "0893e9fe-0fe0-4bf3-827d-d201b3aa54f8",
+                  "6ad781ef-dad5-4f8a-99b2-1802ee95b93f",
+                  "ae104d52-3c09-4dbf-964f-fae72f16e346",
+                  "826172c7-994a-4160-bd1a-213dcbcea2a0",
+                  "72531496-fa6b-4fd6-9a70-ad3a7ec89829",
+                  "39e5da47-14ea-4742-9a15-bc80ed4345d2",
+                  "5498c6a6-1d01-4f14-98e4-2d0a187b783f",
+                  "6c35a37d-57f6-409c-9886-850c4d675add",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "f03baf71-05f3-4472-98b5-5a25e9ef6b17",
+                  "581a59f2-a229-441a-8f05-60e23e9a09bb"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 8,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 8,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Banks forced to record asset depreciations, selling assets to restore prudential ratios, feeding market decline",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "815caa4a-0cba-443d-af7c-ca233773c674",
+                  "5151cbce-3c27-4670-898f-2746221bd00f",
+                  "ff5bc11d-d4f4-48e2-8f7b-eb63376dd22a",
+                  "351d8943-fce9-4ea7-b8a2-122cbe5f4797",
+                  "f34f4296-1a41-4fdc-9f2c-28ff0efcb263",
+                  "be23b28a-a941-4c45-9b14-fc7285f4e276",
+                  "edf62962-7dca-438f-8358-0bd490276036",
+                  "1313325c-c873-4a99-a42e-e72cdc8cd0a0",
+                  "377fbf11-b136-492d-a109-4c457e6d2ea9",
+                  "dada30cd-54e9-4262-83cf-2b446c15cfd4",
+                  "2cb1430c-f232-472c-80eb-17fd97fe6b55",
+                  "37326e3d-fbc9-4aaa-b75d-3b8da00c6936",
+                  "0893e9fe-0fe0-4bf3-827d-d201b3aa54f8",
+                  "6ad781ef-dad5-4f8a-99b2-1802ee95b93f",
+                  "ae104d52-3c09-4dbf-964f-fae72f16e346",
+                  "826172c7-994a-4160-bd1a-213dcbcea2a0",
+                  "72531496-fa6b-4fd6-9a70-ad3a7ec89829",
+                  "39e5da47-14ea-4742-9a15-bc80ed4345d2",
+                  "5498c6a6-1d01-4f14-98e4-2d0a187b783f",
+                  "6c35a37d-57f6-409c-9886-850c4d675add",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "f03baf71-05f3-4472-98b5-5a25e9ef6b17",
+                  "581a59f2-a229-441a-8f05-60e23e9a09bb"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 8,
+                    "value": "Banks forced to record asset depreciations starting summer 2007, selling assets to restore prudential ratios, feeding market decline",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 8,
+                    "value": "Losses on subprime-related assets forced banks to raise capital",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Bank asset depreciations",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "815caa4a-0cba-443d-af7c-ca233773c674",
+                  "5151cbce-3c27-4670-898f-2746221bd00f",
+                  "ff5bc11d-d4f4-48e2-8f7b-eb63376dd22a",
+                  "351d8943-fce9-4ea7-b8a2-122cbe5f4797",
+                  "f34f4296-1a41-4fdc-9f2c-28ff0efcb263",
+                  "be23b28a-a941-4c45-9b14-fc7285f4e276",
+                  "edf62962-7dca-438f-8358-0bd490276036",
+                  "1313325c-c873-4a99-a42e-e72cdc8cd0a0",
+                  "377fbf11-b136-492d-a109-4c457e6d2ea9",
+                  "dada30cd-54e9-4262-83cf-2b446c15cfd4",
+                  "2cb1430c-f232-472c-80eb-17fd97fe6b55",
+                  "37326e3d-fbc9-4aaa-b75d-3b8da00c6936",
+                  "0893e9fe-0fe0-4bf3-827d-d201b3aa54f8",
+                  "6ad781ef-dad5-4f8a-99b2-1802ee95b93f",
+                  "ae104d52-3c09-4dbf-964f-fae72f16e346",
+                  "826172c7-994a-4160-bd1a-213dcbcea2a0",
+                  "72531496-fa6b-4fd6-9a70-ad3a7ec89829",
+                  "39e5da47-14ea-4742-9a15-bc80ed4345d2",
+                  "5498c6a6-1d01-4f14-98e4-2d0a187b783f",
+                  "6c35a37d-57f6-409c-9886-850c4d675add",
+                  "774a2812-a4e8-467a-bfec-e379bccc6d8d",
+                  "8d2445c6-0ad7-4b4e-a841-9f7690fe8ab8",
+                  "f03baf71-05f3-4472-98b5-5a25e9ef6b17",
+                  "581a59f2-a229-441a-8f05-60e23e9a09bb"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 8,
+                    "value": "Bank asset depreciations",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 8,
+                    "value": "Asset depreciations and capital raising",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 11,
+        "properties": {
+          "dateTime": {
+            "value": "2008-09-15T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "c5c08c36-fd6b-4408-8107-d0ad8ef8e898",
+                  "0b245e81-082e-416f-9f2b-d5985259ad7c",
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "ea866de1-8ccf-4ab9-8e99-0ef1bba23b01",
+                  "094ac2a7-2016-4cd4-8d36-4f0abe448879",
+                  "94b46677-8d41-49d4-b7dd-1fdf2e28c1d6",
+                  "0bf03b7a-6002-48bf-8d95-da0a59e231f1",
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "5d1d4b58-3a6b-4142-b69b-b614c439f0d9",
+                  "992a3a65-8cae-4ae0-9ad3-e4e379f05b91",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 5,
+                    "value": "2008-09-15T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 6,
+                    "value": "2008-09-15T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 3,
+                    "value": "2008-09-15T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 4,
+                    "value": "2008-09-15T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 2,
+                    "value": "2008-09-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 2,
+                    "value": "2008-09-01T00:00:00",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Market Collapse",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "ea866de1-8ccf-4ab9-8e99-0ef1bba23b01",
+                  "094ac2a7-2016-4cd4-8d36-4f0abe448879",
+                  "94b46677-8d41-49d4-b7dd-1fdf2e28c1d6",
+                  "0bf03b7a-6002-48bf-8d95-da0a59e231f1",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "8ca09f98-a4ed-4b70-966a-3a31447a3638",
+                  "afefdeaf-f0e6-4293-9dea-74ca6dde27dd",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 5,
+                    "value": "Market Disruption",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 6,
+                    "value": "Credit Risk Increase",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 3,
+                    "value": "Liquidity Crisis",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 4,
+                    "value": "Market Collapse",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 2,
+                    "value": "Market collapse",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 2,
+                    "value": "Market Crash",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "DirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "c5c08c36-fd6b-4408-8107-d0ad8ef8e898",
+                  "0b245e81-082e-416f-9f2b-d5985259ad7c",
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "ea866de1-8ccf-4ab9-8e99-0ef1bba23b01",
+                  "094ac2a7-2016-4cd4-8d36-4f0abe448879",
+                  "94b46677-8d41-49d4-b7dd-1fdf2e28c1d6",
+                  "0bf03b7a-6002-48bf-8d95-da0a59e231f1",
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "de8111c7-58af-46ce-9337-476b06274fe2",
+                  "e52163dd-2709-4f27-b48c-1d61e0930243",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 5,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 6,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 3,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 4,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 2,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 2,
+                    "value": "DirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Sharp decline in stock prices, paralyzed interbank markets, and asset sales fueling price declines",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "c5c08c36-fd6b-4408-8107-d0ad8ef8e898",
+                  "0b245e81-082e-416f-9f2b-d5985259ad7c",
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "ea866de1-8ccf-4ab9-8e99-0ef1bba23b01",
+                  "094ac2a7-2016-4cd4-8d36-4f0abe448879",
+                  "94b46677-8d41-49d4-b7dd-1fdf2e28c1d6",
+                  "0bf03b7a-6002-48bf-8d95-da0a59e231f1",
+                  "7e2fda00-361c-4e9e-9200-7a04eec99bed",
+                  "897ec959-e49d-45e8-80a9-1bb5442ba75f",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "de8111c7-58af-46ce-9337-476b06274fe2",
+                  "e52163dd-2709-4f27-b48c-1d61e0930243",
+                  "0d7c22b1-a394-4b81-b2f5-9202046e2ea5",
+                  "dbf7e3df-d267-4359-aa68-588d324b1195",
+                  "8c9fa1e3-c1b1-420f-8d54-2a130c003939",
+                  "26d6dbe8-b4b9-4b94-abdb-c565a9f05fa6",
+                  "afa06dd2-c90e-4b23-9ce7-8ba1ae40564f",
+                  "f9c8f768-4854-41c5-ae32-82388f477e6e",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 5,
+                    "value": "Risk of disorderly unwinding of OTC contracts paralyzed interbank markets",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 6,
+                    "value": "Investors revised upward default probabilities of other banks, revealed by widening spreads",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 3,
+                    "value": "Investment funds holding Lehman Brothers securities experienced liquidity shortage",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 4,
+                    "value": "Funds sold assets including stocks to reimburse clients, fueling stock price declines",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 2,
+                    "value": "Sharp decline in stock prices in late 2008",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 2,
+                    "value": "Chute des cours des actions en septembre 2008",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Stock market crash and financial paralysis",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "e63a3397-102f-4d68-9709-a880d54c53a6",
+                  "1f944aaa-4043-4e14-ba0c-326c338f6368",
+                  "ea866de1-8ccf-4ab9-8e99-0ef1bba23b01",
+                  "094ac2a7-2016-4cd4-8d36-4f0abe448879",
+                  "94b46677-8d41-49d4-b7dd-1fdf2e28c1d6",
+                  "0bf03b7a-6002-48bf-8d95-da0a59e231f1",
+                  "275aac36-44f0-4d27-8471-18dd1de400cb",
+                  "2510c32c-e305-4e8e-bef9-69bac76ba790",
+                  "8ca09f98-a4ed-4b70-966a-3a31447a3638",
+                  "afefdeaf-f0e6-4293-9dea-74ca6dde27dd",
+                  "de8111c7-58af-46ce-9337-476b06274fe2",
+                  "e52163dd-2709-4f27-b48c-1d61e0930243",
+                  "0d7c22b1-a394-4b81-b2f5-9202046e2ea5",
+                  "dbf7e3df-d267-4359-aa68-588d324b1195",
+                  "8c9fa1e3-c1b1-420f-8d54-2a130c003939",
+                  "26d6dbe8-b4b9-4b94-abdb-c565a9f05fa6",
+                  "afa06dd2-c90e-4b23-9ce7-8ba1ae40564f",
+                  "f9c8f768-4854-41c5-ae32-82388f477e6e",
+                  "b5bc380e-ff8a-4ab0-8dc4-81020a1445e2",
+                  "8e3dfb6d-0e93-4cc8-8f13-41c8fc45fee6",
+                  "7f81832a-c5ef-4c98-b9da-0fd26f80392e",
+                  "0cc24020-2b7c-4ae7-8bed-1a9f53235669"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 5,
+                    "value": "Interbank market paralysis",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 6,
+                    "value": "Increased default probabilities for banks",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 3,
+                    "value": "Investment funds liquidity shortage",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 4,
+                    "value": "Asset sales and stock price falls",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 2,
+                    "value": "Stock market crash",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                    "nodeId": 2,
+                    "value": "Chute des cours des actions septembre 2008",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 13,
+        "properties": {
+          "dateTime": {
+            "value": "2008-12-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "b61d1267-4cbb-4442-808c-18ef674aecca",
+                  "e631d9eb-1639-4a1f-aab1-687d0fbd0161",
+                  "6804cdd3-c2eb-477c-9b19-02d5b91b3278",
+                  "674f3030-37c2-47ea-9629-b7ac7aa36b01",
+                  "1130daa8-249b-424c-9fbb-cffd3ee56466",
+                  "36a2cb50-9f17-4e9d-8e2f-c2e36676ef3b",
+                  "71cc7fdf-4242-43dd-838f-dabe72a8c7d3",
+                  "6dda8d1e-618b-4ef3-b3a1-b2733c466384",
+                  "6b121c66-71cf-4271-902b-cf1711942d34",
+                  "429b3394-95fa-4e28-a9d3-8d314a11d24c",
+                  "3f57669f-caef-4f88-a753-d69558a2ec3a",
+                  "7ae625ff-a782-49f0-8cea-646a751d91b1",
+                  "63af1b63-81b2-485d-b442-a26e00e29480",
+                  "6807690d-89fe-44c0-8b6e-82c0475602d6",
+                  "b66ead64-7952-4903-a6cf-660c10bba469",
+                  "8b1cabb0-7000-445e-93b5-5e29fe3e7434",
+                  "9b52be11-26c7-4f6f-9c6e-7278d1d18930",
+                  "3fae1dad-34bc-4aa8-a734-49a3970cfb7a",
+                  "62dd8c83-4d60-4c95-aa29-d9ac09ae2a8b",
+                  "2b540515-d6f5-4ae1-94c6-10de990ddf53"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 10,
+                    "value": "2008-12-01T00:00:00Z",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 5,
+                    "value": "2008-01-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 6,
+                    "value": "2008-01-01T00:00:00Z",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 10,
+                    "value": "2009-01-01T00:00:00Z",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Business Interruption",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "c525ce71-3a94-439e-8f48-bd1ab1f9c73a",
+                  "3cc8720c-2792-4bf6-8fdf-e5fa7f3b5545",
+                  "376cb2ad-047a-45e4-bbe4-f17f2af2e790",
+                  "70d2eba4-540f-4745-9641-b941c034c8d2",
+                  "24aff192-950d-4fe9-a894-66167316c7ff",
+                  "8e14269b-0e68-4195-8563-6784282f003b",
+                  "f39d0ff6-1765-4923-ae3b-2394355f2cb2",
+                  "7040bb7f-0541-4f57-8063-9d0df31163f0",
+                  "269d630c-981a-497a-b703-d85be1afc46d",
+                  "452d0ef7-2c50-41b6-96ba-6e5f37e4a549",
+                  "9151f1f4-6bc6-40b3-a377-e62c4334ff2b",
+                  "6ca437f9-8b90-4af9-964c-ade22f526846",
+                  "ffe789f4-06e6-4055-b27e-1dfac81cd346",
+                  "5b5d1348-0f9e-41d3-a8aa-b18cc86147e0",
+                  "481b8a8f-aed3-4123-8bf3-aee0a172175a",
+                  "b0c4689e-b9bc-4415-aeb7-ebb835b615de"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 10,
+                    "value": "Business Interruption",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 5,
+                    "value": "Demand contraction",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 6,
+                    "value": "Investment contraction",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 10,
+                    "value": "Economic recession",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "IndirectConsequence",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "c525ce71-3a94-439e-8f48-bd1ab1f9c73a",
+                  "3cc8720c-2792-4bf6-8fdf-e5fa7f3b5545",
+                  "376cb2ad-047a-45e4-bbe4-f17f2af2e790",
+                  "70d2eba4-540f-4745-9641-b941c034c8d2",
+                  "6804cdd3-c2eb-477c-9b19-02d5b91b3278",
+                  "674f3030-37c2-47ea-9629-b7ac7aa36b01",
+                  "1130daa8-249b-424c-9fbb-cffd3ee56466",
+                  "36a2cb50-9f17-4e9d-8e2f-c2e36676ef3b",
+                  "71cc7fdf-4242-43dd-838f-dabe72a8c7d3",
+                  "6dda8d1e-618b-4ef3-b3a1-b2733c466384",
+                  "6b121c66-71cf-4271-902b-cf1711942d34",
+                  "429b3394-95fa-4e28-a9d3-8d314a11d24c",
+                  "de8111c7-58af-46ce-9337-476b06274fe2",
+                  "e52163dd-2709-4f27-b48c-1d61e0930243",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "0fac9f6e-a185-4ebb-9c3f-7bf736ee5da5",
+                  "a32d5a1e-ae99-4665-9123-76a349fe4eb5",
+                  "269d630c-981a-497a-b703-d85be1afc46d",
+                  "452d0ef7-2c50-41b6-96ba-6e5f37e4a549",
+                  "ecc27520-a8cf-4861-9f2b-75a0da3f4d15",
+                  "d05dba2e-8ab8-4570-9e88-671a322935c8",
+                  "63af1b63-81b2-485d-b442-a26e00e29480",
+                  "6807690d-89fe-44c0-8b6e-82c0475602d6",
+                  "b66ead64-7952-4903-a6cf-660c10bba469",
+                  "8b1cabb0-7000-445e-93b5-5e29fe3e7434",
+                  "3f57669f-caef-4f88-a753-d69558a2ec3a",
+                  "7ae625ff-a782-49f0-8cea-646a751d91b1",
+                  "9151f1f4-6bc6-40b3-a377-e62c4334ff2b",
+                  "6ca437f9-8b90-4af9-964c-ade22f526846",
+                  "ffe789f4-06e6-4055-b27e-1dfac81cd346",
+                  "5b5d1348-0f9e-41d3-a8aa-b18cc86147e0",
+                  "481b8a8f-aed3-4123-8bf3-aee0a172175a",
+                  "b0c4689e-b9bc-4415-aeb7-ebb835b615de"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 10,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 5,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 6,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 10,
+                    "value": "IndirectConsequence",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Financial crisis led to quasi-generalized recession affecting all major industrialized countries by end of 2008, with declining consumption and investment",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "c525ce71-3a94-439e-8f48-bd1ab1f9c73a",
+                  "3cc8720c-2792-4bf6-8fdf-e5fa7f3b5545",
+                  "376cb2ad-047a-45e4-bbe4-f17f2af2e790",
+                  "70d2eba4-540f-4745-9641-b941c034c8d2",
+                  "6804cdd3-c2eb-477c-9b19-02d5b91b3278",
+                  "674f3030-37c2-47ea-9629-b7ac7aa36b01",
+                  "1130daa8-249b-424c-9fbb-cffd3ee56466",
+                  "36a2cb50-9f17-4e9d-8e2f-c2e36676ef3b",
+                  "71cc7fdf-4242-43dd-838f-dabe72a8c7d3",
+                  "6dda8d1e-618b-4ef3-b3a1-b2733c466384",
+                  "6b121c66-71cf-4271-902b-cf1711942d34",
+                  "429b3394-95fa-4e28-a9d3-8d314a11d24c",
+                  "de8111c7-58af-46ce-9337-476b06274fe2",
+                  "e52163dd-2709-4f27-b48c-1d61e0930243",
+                  "95833abb-297f-465b-afd0-95a019594321",
+                  "c27f9fd9-a23a-491f-8312-1389c4e0248e",
+                  "0fac9f6e-a185-4ebb-9c3f-7bf736ee5da5",
+                  "a32d5a1e-ae99-4665-9123-76a349fe4eb5",
+                  "269d630c-981a-497a-b703-d85be1afc46d",
+                  "452d0ef7-2c50-41b6-96ba-6e5f37e4a549",
+                  "ecc27520-a8cf-4861-9f2b-75a0da3f4d15",
+                  "d05dba2e-8ab8-4570-9e88-671a322935c8",
+                  "3f57669f-caef-4f88-a753-d69558a2ec3a",
+                  "7ae625ff-a782-49f0-8cea-646a751d91b1",
+                  "63af1b63-81b2-485d-b442-a26e00e29480",
+                  "6807690d-89fe-44c0-8b6e-82c0475602d6",
+                  "b66ead64-7952-4903-a6cf-660c10bba469",
+                  "8b1cabb0-7000-445e-93b5-5e29fe3e7434",
+                  "ddf02f9a-1efe-44b8-bb84-e668b6fc9cd6",
+                  "1274f506-1092-4a6f-bba3-d1fa57dc7845",
+                  "1cb2e97b-be30-4454-8a45-7db40bda1cf7",
+                  "d571ffb0-76a3-42aa-893c-fdc55f7565d5",
+                  "f88346ae-b9a2-42ba-9a62-45c1a3f24ad9",
+                  "37ebeba8-5715-4455-96eb-ccf01abf7d24",
+                  "56fa27b8-aa21-41de-b791-ad2f64395ca4",
+                  "835a8105-6c64-45d5-8585-988e5e8e24a7",
+                  "2c8d3984-41ec-45d2-a239-0cefb055fe3a",
+                  "46de4632-9bb8-4afc-a569-f957aa6bde79",
+                  "9b52be11-26c7-4f6f-9c6e-7278d1d18930",
+                  "3fae1dad-34bc-4aa8-a734-49a3970cfb7a",
+                  "1395907f-5c95-4b00-973d-d02817404ff6",
+                  "0ac61a7e-95d8-4d13-8eb6-c60fea5843c7",
+                  "222a9b63-69ed-4412-90e8-28cfa78925c5",
+                  "bccb955c-8d8d-47ae-a8e7-59b489149591",
+                  "ad5fef79-c73f-40e2-adfa-44b0859d2e9a",
+                  "d50bc04a-b53f-4258-a931-03ea4abeb45c",
+                  "e4830e19-109d-4cd5-948e-ba85f0f1e5a6",
+                  "476e07d8-b537-451c-9875-642f78f79fc4",
+                  "a182884f-5820-4b79-95c2-08e26195193c",
+                  "b7fbf065-8e40-4c3b-8f12-22e7f7d2bf17",
+                  "94ce8b65-61f8-4baa-889c-8966448cf940",
+                  "84ba1c46-21a1-4879-b313-b540280e26e6",
+                  "75a50777-ca0b-4f4d-81e0-479dc299b1db",
+                  "cacaf253-740e-40cd-b319-d2719c8e51cc",
+                  "9151f1f4-6bc6-40b3-a377-e62c4334ff2b",
+                  "6ca437f9-8b90-4af9-964c-ade22f526846",
+                  "ffe789f4-06e6-4055-b27e-1dfac81cd346",
+                  "5b5d1348-0f9e-41d3-a8aa-b18cc86147e0",
+                  "481b8a8f-aed3-4123-8bf3-aee0a172175a",
+                  "b0c4689e-b9bc-4415-aeb7-ebb835b615de",
+                  "15c657ed-96f4-4061-8b9d-27cb5ae5a91e",
+                  "c30cb00a-21b3-4e3d-89a2-5bb04844ee8c",
+                  "95468c4b-4e06-46e8-8711-66098631c981",
+                  "9ef7b835-c655-4666-af2d-3709b8b3209a",
+                  "27b68b68-8faf-4883-9407-6422bb023418",
+                  "39676bbd-fa26-4312-b1e2-da7a1d2f0788",
+                  "b27718e0-6742-4973-ac9c-f3437a68f86f",
+                  "39614b03-3852-4de2-bb5f-39121b1c5f05",
+                  "cea99f84-722a-4c0a-95dc-cb2b9af6bfb8",
+                  "c8017488-f27e-4461-b0bd-dedb4c7d3100",
+                  "62dd8c83-4d60-4c95-aa29-d9ac09ae2a8b",
+                  "2b540515-d6f5-4ae1-94c6-10de990ddf53"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 10,
+                    "value": "Financial crisis led to quasi-generalized recession affecting all major industrialized countries by end of 2008",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 5,
+                    "value": "Reduction in consumer spending due to wealth effects and income stagnation",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 6,
+                    "value": "Reduction in corporate investment due to higher financing costs and reduced demand",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 10,
+                    "value": "Severe economic downturn affecting advanced economies in 2009",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Generalized economic recession",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "c525ce71-3a94-439e-8f48-bd1ab1f9c73a",
+                  "3cc8720c-2792-4bf6-8fdf-e5fa7f3b5545",
+                  "376cb2ad-047a-45e4-bbe4-f17f2af2e790",
+                  "70d2eba4-540f-4745-9641-b941c034c8d2",
+                  "6804cdd3-c2eb-477c-9b19-02d5b91b3278",
+                  "674f3030-37c2-47ea-9629-b7ac7aa36b01",
+                  "1130daa8-249b-424c-9fbb-cffd3ee56466",
+                  "36a2cb50-9f17-4e9d-8e2f-c2e36676ef3b",
+                  "71cc7fdf-4242-43dd-838f-dabe72a8c7d3",
+                  "6dda8d1e-618b-4ef3-b3a1-b2733c466384",
+                  "6b121c66-71cf-4271-902b-cf1711942d34",
+                  "429b3394-95fa-4e28-a9d3-8d314a11d24c",
+                  "80f4dff5-2934-41b2-b7f1-ed3068759ba5",
+                  "708057cb-6947-454a-91d7-e02afdfe5373",
+                  "8ca09f98-a4ed-4b70-966a-3a31447a3638",
+                  "afefdeaf-f0e6-4293-9dea-74ca6dde27dd",
+                  "0fac9f6e-a185-4ebb-9c3f-7bf736ee5da5",
+                  "a32d5a1e-ae99-4665-9123-76a349fe4eb5",
+                  "24aff192-950d-4fe9-a894-66167316c7ff",
+                  "8e14269b-0e68-4195-8563-6784282f003b",
+                  "f39d0ff6-1765-4923-ae3b-2394355f2cb2",
+                  "7040bb7f-0541-4f57-8063-9d0df31163f0",
+                  "269d630c-981a-497a-b703-d85be1afc46d",
+                  "452d0ef7-2c50-41b6-96ba-6e5f37e4a549",
+                  "3f57669f-caef-4f88-a753-d69558a2ec3a",
+                  "7ae625ff-a782-49f0-8cea-646a751d91b1",
+                  "63af1b63-81b2-485d-b442-a26e00e29480",
+                  "6807690d-89fe-44c0-8b6e-82c0475602d6",
+                  "b66ead64-7952-4903-a6cf-660c10bba469",
+                  "8b1cabb0-7000-445e-93b5-5e29fe3e7434",
+                  "ddf02f9a-1efe-44b8-bb84-e668b6fc9cd6",
+                  "1274f506-1092-4a6f-bba3-d1fa57dc7845",
+                  "1cb2e97b-be30-4454-8a45-7db40bda1cf7",
+                  "d571ffb0-76a3-42aa-893c-fdc55f7565d5",
+                  "f88346ae-b9a2-42ba-9a62-45c1a3f24ad9",
+                  "37ebeba8-5715-4455-96eb-ccf01abf7d24",
+                  "56fa27b8-aa21-41de-b791-ad2f64395ca4",
+                  "835a8105-6c64-45d5-8585-988e5e8e24a7",
+                  "2c8d3984-41ec-45d2-a239-0cefb055fe3a",
+                  "46de4632-9bb8-4afc-a569-f957aa6bde79",
+                  "9b52be11-26c7-4f6f-9c6e-7278d1d18930",
+                  "3fae1dad-34bc-4aa8-a734-49a3970cfb7a",
+                  "1395907f-5c95-4b00-973d-d02817404ff6",
+                  "0ac61a7e-95d8-4d13-8eb6-c60fea5843c7",
+                  "222a9b63-69ed-4412-90e8-28cfa78925c5",
+                  "bccb955c-8d8d-47ae-a8e7-59b489149591",
+                  "ad5fef79-c73f-40e2-adfa-44b0859d2e9a",
+                  "d50bc04a-b53f-4258-a931-03ea4abeb45c",
+                  "e4830e19-109d-4cd5-948e-ba85f0f1e5a6",
+                  "476e07d8-b537-451c-9875-642f78f79fc4",
+                  "a182884f-5820-4b79-95c2-08e26195193c",
+                  "b7fbf065-8e40-4c3b-8f12-22e7f7d2bf17",
+                  "94ce8b65-61f8-4baa-889c-8966448cf940",
+                  "84ba1c46-21a1-4879-b313-b540280e26e6",
+                  "75a50777-ca0b-4f4d-81e0-479dc299b1db",
+                  "cacaf253-740e-40cd-b319-d2719c8e51cc",
+                  "9151f1f4-6bc6-40b3-a377-e62c4334ff2b",
+                  "6ca437f9-8b90-4af9-964c-ade22f526846",
+                  "ffe789f4-06e6-4055-b27e-1dfac81cd346",
+                  "5b5d1348-0f9e-41d3-a8aa-b18cc86147e0",
+                  "481b8a8f-aed3-4123-8bf3-aee0a172175a",
+                  "b0c4689e-b9bc-4415-aeb7-ebb835b615de",
+                  "15c657ed-96f4-4061-8b9d-27cb5ae5a91e",
+                  "c30cb00a-21b3-4e3d-89a2-5bb04844ee8c",
+                  "95468c4b-4e06-46e8-8711-66098631c981",
+                  "9ef7b835-c655-4666-af2d-3709b8b3209a",
+                  "27b68b68-8faf-4883-9407-6422bb023418",
+                  "39676bbd-fa26-4312-b1e2-da7a1d2f0788",
+                  "b27718e0-6742-4973-ac9c-f3437a68f86f",
+                  "39614b03-3852-4de2-bb5f-39121b1c5f05",
+                  "cea99f84-722a-4c0a-95dc-cb2b9af6bfb8",
+                  "c8017488-f27e-4461-b0bd-dedb4c7d3100",
+                  "62dd8c83-4d60-4c95-aa29-d9ac09ae2a8b",
+                  "2b540515-d6f5-4ae1-94c6-10de990ddf53"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                    "nodeId": 10,
+                    "value": "Generalized economic recession",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 5,
+                    "value": "Decline in household consumption",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 6,
+                    "value": "Decline in business investment",
+                    "extracted": true
+                  },
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                    "nodeId": 10,
+                    "value": "Economic recession",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "nodeId": 15,
+        "properties": {
+          "dateTime": {
+            "value": "2009-01-01T00:00:00Z",
+            "metadata": [
+              {
+                "name": "dateTime",
+                "extracted": true,
+                "blockIds": [
+                  "02c1b538-d376-425a-829e-3e406b612c31",
+                  "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+                  "9864cc90-6f96-495f-91d3-f03b51443169",
+                  "b169785e-8f10-40dd-ae5f-ae74a3fc2080"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 9,
+                    "value": "2009-01-01T00:00:00Z",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "eventCategory": {
+            "value": "Recapitalization",
+            "metadata": [
+              {
+                "name": "eventCategory",
+                "extracted": false,
+                "blockIds": [
+                  "02c1b538-d376-425a-829e-3e406b612c31",
+                  "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+                  "9864cc90-6f96-495f-91d3-f03b51443169",
+                  "b169785e-8f10-40dd-ae5f-ae74a3fc2080",
+                  "7abcac56-f969-49ec-a2cb-38ef37599f53",
+                  "1687346f-fd71-4ed1-9c9a-970743919ff3"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 9,
+                    "value": "Recapitalization",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "causation": {
+            "value": "MitigationAction",
+            "metadata": [
+              {
+                "name": "causation",
+                "extracted": false,
+                "blockIds": [
+                  "02c1b538-d376-425a-829e-3e406b612c31",
+                  "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+                  "9864cc90-6f96-495f-91d3-f03b51443169",
+                  "b169785e-8f10-40dd-ae5f-ae74a3fc2080",
+                  "7abcac56-f969-49ec-a2cb-38ef37599f53",
+                  "1687346f-fd71-4ed1-9c9a-970743919ff3"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 9,
+                    "value": "MitigationAction",
+                    "extracted": false
+                  }
+                ]
+              }
+            ]
+          },
+          "eventDescription": {
+            "value": "Banks collected 826 billion dollars in capital, including 380 billion from public sources",
+            "metadata": [
+              {
+                "name": "eventDescription",
+                "extracted": true,
+                "blockIds": [
+                  "02c1b538-d376-425a-829e-3e406b612c31",
+                  "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+                  "9864cc90-6f96-495f-91d3-f03b51443169",
+                  "b169785e-8f10-40dd-ae5f-ae74a3fc2080",
+                  "7abcac56-f969-49ec-a2cb-38ef37599f53",
+                  "1687346f-fd71-4ed1-9c9a-970743919ff3"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 9,
+                    "value": "Banks collected 826 billion dollars in capital, including 380 billion from public sources",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          },
+          "label": {
+            "value": "Public and private recapitalization",
+            "metadata": [
+              {
+                "name": "label",
+                "extracted": true,
+                "blockIds": [
+                  "02c1b538-d376-425a-829e-3e406b612c31",
+                  "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+                  "9864cc90-6f96-495f-91d3-f03b51443169",
+                  "b169785e-8f10-40dd-ae5f-ae74a3fc2080",
+                  "7abcac56-f969-49ec-a2cb-38ef37599f53",
+                  "1687346f-fd71-4ed1-9c9a-970743919ff3"
+                ],
+                "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+                "evalMetadata": [
+                  {
+                    "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                    "nodeId": 9,
+                    "value": "Public and private recapitalization",
+                    "extracted": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "nodeOriginId": 2,
+        "nodeDestinationId": 3,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 4,
+        "nodeDestinationId": 5,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 6,
+        "nodeDestinationId": 8,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 6,
+        "nodeDestinationId": 7,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 8,
+        "nodeDestinationId": 9,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 10,
+        "nodeDestinationId": 12,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 10,
+        "nodeDestinationId": 11,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 12,
+        "nodeDestinationId": 13,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 1,
+        "nodeDestinationId": 2,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 3,
+        "nodeDestinationId": 5,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 5,
+        "nodeDestinationId": 6,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 7,
+        "nodeDestinationId": 9,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 7,
+        "nodeDestinationId": 14,
+        "relation": "FOLLOWED_BY",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 9,
+        "nodeDestinationId": 10,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 9,
+        "nodeDestinationId": 15,
+        "relation": "FOLLOWED_BY",
+        "properties": {}
+      },
+      {
+        "nodeOriginId": 11,
+        "nodeDestinationId": 13,
+        "relation": "HAS_CAUSE",
+        "properties": {}
+      }
+    ],
+    "properties": {
+      "currency": {
+        "value": "USD",
+        "metadata": [
+          {
+            "name": "currency",
+            "extracted": true,
+            "blockIds": [
+              "5d4ddcef-10f8-4d7c-bfcf-666df20b0441",
+              "6fbc97f6-0cb4-4199-b0ac-e26dc8a4a933",
+              "02c1b538-d376-425a-829e-3e406b612c31",
+              "73e8ae8e-4f29-4a5e-85ce-86ca9754e977",
+              "9864cc90-6f96-495f-91d3-f03b51443169",
+              "b169785e-8f10-40dd-ae5f-ae74a3fc2080",
+              "7abcac56-f969-49ec-a2cb-38ef37599f53",
+              "1687346f-fd71-4ed1-9c9a-970743919ff3",
+              "dac75a03-a7ec-402f-81b2-4d9a8b3e8830",
+              "c7d3f31d-6742-42fd-a650-5b4677e18fdb"
+            ],
+            "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+            "evalMetadata": [
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                "nodeId": null,
+                "value": "USD",
+                "extracted": true
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              }
+            ]
+          }
+        ]
+      },
+      "loss_amount": {
+        "value": 2800000000000,
+        "metadata": [
+          {
+            "name": "loss_amount",
+            "extracted": true,
+            "blockIds": [
+              "5d4ddcef-10f8-4d7c-bfcf-666df20b0441",
+              "6fbc97f6-0cb4-4199-b0ac-e26dc8a4a933"
+            ],
+            "documentId": "01KH6SANPR0E69K5Z7FVAK3TJW",
+            "evalMetadata": [
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::0",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::1",
+                "nodeId": null,
+                "value": 2800000000000,
+                "extracted": true
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::2",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              },
+              {
+                "sourceId": "01KH6SANPR0E69K5Z7FVAK3TJW::3",
+                "nodeId": null,
+                "value": null,
+                "extracted": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "mergeMethod": "LLM",
+  "numGraphs": 4
+}

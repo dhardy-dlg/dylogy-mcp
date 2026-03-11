@@ -12,6 +12,8 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
+import tool_definitions
+
 
 def _log(msg: str) -> None:
     """Log to stderr so we don't corrupt the MCP stdio transport."""
@@ -60,13 +62,39 @@ async def authed_get(client: httpx.AsyncClient, url: str) -> Any:
 
 
 # ── OpenAPI helpers ───────────────────────────────────────────────────────────
-def _resolve_ref(schema: dict, components: dict) -> dict:
-    """Inline a single $ref (shallow)."""
+def _resolve_ref(schema: dict, components: dict, _seen: set | None = None) -> dict:
+    """Recursively inline $ref pointers."""
+    if _seen is None:
+        _seen = set()
+
     ref = schema.get("$ref", "")
-    if not ref.startswith("#/components/schemas/"):
-        return schema
-    name = ref.split("/")[-1]
-    return components.get("schemas", {}).get(name, schema)
+    if ref.startswith("#/components/schemas/"):
+        if ref in _seen:
+            return schema
+        _seen.add(ref)
+        name = ref.split("/")[-1]
+        resolved = components.get("schemas", {}).get(name, schema)
+        return _resolve_ref(resolved, components, _seen)
+
+    result = dict(schema)
+
+    # Resolve refs inside properties
+    if "properties" in result:
+        result["properties"] = {
+            k: _resolve_ref(v, components, set(_seen))
+            for k, v in result["properties"].items()
+        }
+
+    # Resolve refs inside array items
+    if "items" in result:
+        result["items"] = _resolve_ref(result["items"], components, set(_seen))
+
+    # Resolve refs inside anyOf / oneOf / allOf
+    for key in ("anyOf", "oneOf", "allOf"):
+        if key in result:
+            result[key] = [_resolve_ref(s, components, set(_seen)) for s in result[key]]
+
+    return result
 
 
 def openapi_to_tools(spec: dict) -> list[Tool]:
@@ -103,7 +131,7 @@ def openapi_to_tools(spec: dict) -> list[Tool]:
                 mt       = content.get("application/json") or next(iter(content.values()), {})
                 b_schema = _resolve_ref(mt.get("schema", {}), components)
                 for prop, val in b_schema.get("properties", {}).items():
-                    properties[prop] = val
+                    properties[prop] = _resolve_ref(val, components)
                 required += b_schema.get("required", [])
 
             tools.append(Tool(
@@ -122,7 +150,6 @@ def openapi_to_tools(spec: dict) -> list[Tool]:
 def build_request(spec: dict, tool_name: str, args: dict) -> tuple[str, str, dict, dict, dict]:
     """Return (method, url, path_params, query_params, body) for a tool call."""
     base_url   = (spec.get("servers") or [{}])[0].get("url", DYLOGY_API_BASE)
-    components = spec.get("components", {})
 
     for path, path_item in spec.get("paths", {}).items():
         for method, operation in path_item.items():
@@ -163,11 +190,17 @@ _tools: list[Tool]  = []
 
 @server.list_tools()
 async def list_tools() -> list[Tool]:
-    return _tools
+    return _tools + tool_definitions.CUSTOM_TOOLS
 
 
 @server.call_tool()
 async def call_tool(name: str, arguments: dict) -> list[TextContent]:
+    # Custom tools
+    handler = tool_definitions.CUSTOM_HANDLERS.get(name)
+    if handler:
+        return await handler(arguments)
+
+    # Auto-generated OpenAPI tools
     global _token
     async with httpx.AsyncClient(timeout=30) as client:
         token = await get_token(client)
@@ -204,6 +237,9 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
 # ── Entrypoint ────────────────────────────────────────────────────────────────
 async def main() -> None:
     global _spec, _tools
+
+    # Wire auth functions into tool_definitions
+    tool_definitions.init(DYLOGY_API_BASE, get_token, authed_get)
 
     _log("Authenticating and fetching OpenAPI spec …")
     async with httpx.AsyncClient(timeout=15) as client:
