@@ -1,10 +1,7 @@
-"""
-Graph viewer – generates a self-contained HTML file with React Flow
-(loaded from CDN) and opens it in the default browser.
+"""Tool: view_document_graph
 
-Replicates the Dylogy design-system graph theme:
-  causation-colored badges, card-style nodes, dagre TB layout,
-  dot background, minimap, controls, and a legend.
+Fetch a document's knowledge graph and open an interactive React Flow
+viewer in the browser.
 """
 
 import json
@@ -13,6 +10,76 @@ import tempfile
 import webbrowser
 from typing import Any
 
+import httpx
+from mcp.types import Tool, TextContent
+
+from tools._graph_helpers import extract_value
+
+# ── Auth (injected at startup) ───────────────────────────────────────────────
+_api_base: str = ""
+_authed_get = None
+
+
+def init(api_base: str, authed_get_fn):
+    global _api_base, _authed_get
+    _api_base = api_base
+    _authed_get = authed_get_fn
+
+
+# ── Tool definition ──────────────────────────────────────────────────────────
+TOOL = Tool(
+    name="view_document_graph",
+    description=(
+        "Fetch a document's knowledge graph and open an interactive "
+        "React Flow viewer in the browser. Use this when the user "
+        "wants to *see* or *visualise* a graph."
+    ),
+    inputSchema={
+        "type": "object",
+        "properties": {
+            "env_id": {
+                "type": "string",
+                "description": "Environment ID",
+            },
+            "document_id": {
+                "type": "string",
+                "description": "Document ID",
+            },
+            "document_name": {
+                "type": "string",
+                "description": "Human-readable document name (used as viewer title)",
+            },
+        },
+        "required": ["env_id", "document_id"],
+    },
+)
+
+
+# ── Handler ──────────────────────────────────────────────────────────────────
+async def handle(args: dict) -> list[TextContent]:
+    env_id = args["env_id"]
+    doc_id = args["document_id"]
+    doc_name = args.get("document_name", "Document")
+    url = f"{_api_base}/document-graph/{env_id}/{doc_id}"
+
+    async with httpx.AsyncClient(timeout=30) as client:
+        data = await _authed_get(client, url)
+
+    path = open_graph_viewer(data, doc_name)
+    node_count = len(data.get("graphData", {}).get("nodes", []))
+    edge_count = len(data.get("graphData", {}).get("edges", []))
+
+    return [TextContent(
+        type="text",
+        text=(
+            f"Graph viewer opened in browser.\n"
+            f"Nodes: {node_count}, Edges: {edge_count}\n"
+            f"File: {path}"
+        ),
+    )]
+
+
+# ── Viewer logic ─────────────────────────────────────────────────────────────
 
 # Tailwind hex equivalents for each causation type
 CAUSE_COLORS = {
@@ -26,15 +93,6 @@ CAUSE_COLORS = {
     "ResolutionCompleted": {"text": "#84cc16", "bg": "#f7fee7", "ring": "#a3e635"},
     "default":             {"text": "#6b7280", "bg": "#f9fafb", "ring": "#9ca3af"},
 }
-
-
-def _extract_value(prop: Any) -> Any:
-    """Extract the raw value from a graph property dict."""
-    if prop is None:
-        return None
-    if isinstance(prop, dict):
-        return prop.get("value")
-    return prop
 
 
 def _transform_graph_data(graph_data: dict, document_name: str) -> dict:
@@ -53,24 +111,23 @@ def _transform_graph_data(graph_data: dict, document_name: str) -> dict:
     }
 
     for k, v in properties.items():
-        viewer["properties"][k] = _extract_value(v)
+        viewer["properties"][k] = extract_value(v)
 
     for node in nodes_raw:
         nid = str(node.get("nodeId", node.get("id", "")))
         props = node.get("properties", {})
         viewer["nodes"].append({
             "id": nid,
-            "label": _extract_value(props.get("label")) or "Untitled",
-            "eventDescription": _extract_value(props.get("eventDescription")) or "",
-            "eventCategory": _extract_value(props.get("eventCategory")) or "",
-            "dateTime": _extract_value(props.get("dateTime")) or "",
-            "causation": _extract_value(props.get("causation")) or "default",
+            "label": extract_value(props.get("label")) or "Untitled",
+            "eventDescription": extract_value(props.get("eventDescription")) or "",
+            "eventCategory": extract_value(props.get("eventCategory")) or "",
+            "dateTime": extract_value(props.get("dateTime")) or "",
+            "causation": extract_value(props.get("causation")) or "default",
         })
 
     for i, edge in enumerate(edges_raw):
-        delay = _extract_value(edge.get("properties", {}).get("delay"))
+        delay = extract_value(edge.get("properties", {}).get("delay"))
         relation = edge.get("relation")
-        # API uses nodeOriginId / nodeDestinationId
         source = edge.get("nodeOriginId") or edge.get("sourceNodeId")
         target = edge.get("nodeDestinationId") or edge.get("targetNodeId")
         label_parts = []

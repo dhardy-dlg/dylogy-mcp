@@ -1,9 +1,11 @@
-"""
+"""Tool: search_actuarial_library
+
 Search the ressources-actuarielles.net actuarial library (ISFA).
 """
 
 import httpx
 from html.parser import HTMLParser
+from mcp.types import Tool, TextContent
 
 SEARCH_URL = (
     "http://www.ressources-actuarielles.net"
@@ -19,6 +21,49 @@ HEADERS = {
     ),
 }
 
+
+# ── Tool definition ──────────────────────────────────────────────────────────
+TOOL = Tool(
+    name="search_actuarial_library",
+    description=(
+        "Search the ressources-actuarielles.net actuarial library (ISFA). "
+        "Returns academic papers and memoirs from actuarial science, "
+        "with author, title, source, year, and relevance score."
+    ),
+    inputSchema={
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Search terms (e.g. 'claims reserving', 'Solvency II', 'mortalit\u00e9')",
+            },
+            "max_results": {
+                "type": "integer",
+                "description": "Maximum number of results to return (default 10)",
+            },
+            "search_order": {
+                "type": "integer",
+                "description": "Sort order: 1 = by relevance (default), 2 = by date",
+            },
+        },
+        "required": ["query"],
+    },
+)
+
+
+# ── Handler ──────────────────────────────────────────────────────────────────
+async def handle(args: dict) -> list[TextContent]:
+    query = args["query"]
+    max_results = args.get("max_results", 10)
+    search_order = args.get("search_order", 1)
+    results = await search_actuarial_library(
+        query, max_results=max_results, search_order=search_order,
+    )
+    text = format_results(results, query)
+    return [TextContent(type="text", text=text)]
+
+
+# ── Implementation ───────────────────────────────────────────────────────────
 
 class _ResultParser(HTMLParser):
     """Extract search results from the Domino HTML table."""
@@ -71,7 +116,6 @@ class _ResultParser(HTMLParser):
     def _emit_row(self):
         if len(self._cells) < 4:
             return
-        # cells: [score_img, author, ??, title, source, year]
         author = self._cells[1] if len(self._cells) > 1 else ""
         title = self._cells[3] if len(self._cells) > 3 else ""
         source = self._cells[4] if len(self._cells) > 4 else ""
@@ -97,16 +141,7 @@ async def search_actuarial_library(
     max_results: int = 10,
     search_order: int = 1,
 ) -> list[dict]:
-    """Search ressources-actuarielles.net and return parsed results.
-
-    Args:
-        query: Search terms.
-        max_results: Maximum number of results (default 10).
-        search_order: 1 = by relevance (default), 2 = by date.
-
-    Returns:
-        List of dicts with keys: author, title, source, year, relevance, url.
-    """
+    """Search ressources-actuarielles.net and return parsed results."""
     async with httpx.AsyncClient(timeout=30, verify=False) as client:
         resp = await client.post(
             SEARCH_URL,

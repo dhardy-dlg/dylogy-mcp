@@ -1,11 +1,7 @@
-"""
-Rich PDF report generation from markdown content.
+"""Tool: create_rich_pdf_report
 
-Supports:
-- Standard markdown (tables, code, lists, etc.)
-- LaTeX math: $inline$ and $$block$$ expressions
-- Mermaid diagrams: ```mermaid code blocks rendered to inline SVG
-- Images: local file paths auto-embedded as base64 data URIs
+Generate a rich PDF report from markdown with support for LaTeX math,
+Mermaid diagrams, and embedded images.
 """
 
 import base64
@@ -18,9 +14,54 @@ from pathlib import Path
 
 import markdown
 import latex2mathml.converter
+from mcp.types import Tool, TextContent
 from weasyprint import HTML
 
-_LOGO_PATH = Path(__file__).parent / "Dylogy_logo.svg"
+_LOGO_PATH = Path(__file__).resolve().parent.parent / "Dylogy_logo.svg"
+
+
+# ── Tool definition ──────────────────────────────────────────────────────────
+TOOL = Tool(
+    name="create_rich_pdf_report",
+    description=(
+        "Generate a rich PDF report from markdown with support for LaTeX math "
+        "($inline$ and $$block$$), Mermaid diagrams (```mermaid code blocks), "
+        "and embedded images (local file paths auto-converted to base64). "
+        "Use this instead of create_pdf_report when the content includes "
+        "mathematical formulas, diagrams, or images."
+    ),
+    inputSchema={
+        "type": "object",
+        "properties": {
+            "markdown_content": {
+                "type": "string",
+                "description": (
+                    "Markdown text with optional extensions: "
+                    "$...$ for inline math, $$...$$ for block math, "
+                    "```mermaid for diagrams, ![alt](path) for images"
+                ),
+            },
+            "title": {
+                "type": "string",
+                "description": "Document title (PDF metadata). Defaults to 'Report'.",
+            },
+            "filename": {
+                "type": "string",
+                "description": "Output filename (without path). Defaults to auto-generated name.",
+            },
+        },
+        "required": ["markdown_content"],
+    },
+)
+
+
+# ── Handler ──────────────────────────────────────────────────────────────────
+async def handle(args: dict) -> list[TextContent]:
+    md = args["markdown_content"]
+    title = args.get("title", "Report")
+    filename = args.get("filename")
+    path = markdown_to_rich_pdf(md, title=title, filename=filename)
+    return [TextContent(type="text", text=f"Rich PDF report saved to: {path}")]
 
 
 # ── Math rendering ───────────────────────────────────────────────────────────
@@ -39,14 +80,12 @@ def _latex_to_mathml(latex: str, block: bool = False) -> str:
             mathml = f'<span class="math-inline">{mathml}</span>'
         return mathml
     except Exception:
-        # Fallback: show raw LaTeX in a code block
         tag = "div" if block else "span"
         return f'<{tag} class="math-fallback"><code>{latex.strip()}</code></{tag}>'
 
 
 def _render_math(md_content: str) -> str:
     """Replace $...$ and $$...$$ with MathML in the markdown source."""
-    # Block math first (greedy match issues if inline goes first)
     def _replace_block(m):
         return _latex_to_mathml(m.group(1), block=True)
 
@@ -66,11 +105,7 @@ _MERMAID_BLOCK_RE = re.compile(
 
 
 def _render_mermaid_to_svg(mermaid_code: str) -> str | None:
-    """Render a Mermaid diagram to SVG using mmdc CLI.
-
-    Uses htmlLabels:false so text is rendered as native SVG <text> elements
-    instead of <foreignObject> (which WeasyPrint cannot render).
-    """
+    """Render a Mermaid diagram to SVG using mmdc CLI."""
     with tempfile.NamedTemporaryFile(
         mode="w", suffix=".mmd", delete=False
     ) as mmd_file:
@@ -79,7 +114,6 @@ def _render_mermaid_to_svg(mermaid_code: str) -> str | None:
 
     svg_path = mmd_path.replace(".mmd", ".svg")
 
-    # Config to force native SVG text instead of foreignObject HTML
     config_path = mmd_path.replace(".mmd", ".json")
     Path(config_path).write_text(
         '{"htmlLabels":false,"flowchart":{"htmlLabels":false,"useMaxWidth":false}}'
@@ -114,7 +148,6 @@ def _render_mermaid(md_content: str) -> str:
         svg = _render_mermaid_to_svg(code)
         if svg:
             return f'<div class="mermaid-diagram">{svg}</div>'
-        # Fallback: keep as a code block
         return f"```\n{code}```"
 
     return _MERMAID_BLOCK_RE.sub(_replace, md_content)
@@ -130,7 +163,6 @@ def _embed_image(match) -> str:
     alt = match.group(1)
     src = match.group(2)
 
-    # Already a data URI or URL — leave as is
     if src.startswith("data:") or src.startswith("http"):
         return match.group(0)
 
@@ -355,35 +387,19 @@ def markdown_to_rich_pdf(
 ) -> str:
     """Convert markdown (with math, mermaid, images) to a styled PDF.
 
-    Processing pipeline:
-    1. Embed local images as base64 data URIs
-    2. Render ```mermaid blocks to inline SVG
-    3. Convert $...$ and $$...$$ to MathML
-    4. Convert remaining markdown to HTML
-    5. Wrap in styled HTML template
-    6. Render to PDF with WeasyPrint
-
     Returns the absolute path to the generated PDF file.
     """
-    # Step 1: Embed local images
     md_content = _embed_images(md_content)
-
-    # Step 2: Render mermaid diagrams to SVG
     md_content = _render_mermaid(md_content)
-
-    # Step 3: Convert LaTeX math to MathML
     md_content = _render_math(md_content)
 
-    # Step 4: Convert markdown to HTML
     body_html = markdown.markdown(
         md_content,
         extensions=["tables", "fenced_code"],
     )
 
-    # Step 5: Build full HTML
     html_str = _build_html(body_html, title)
 
-    # Step 6: Render to PDF
     if filename:
         if not filename.endswith(".pdf"):
             filename += ".pdf"

@@ -1,15 +1,59 @@
-"""PDF report generation from markdown content."""
+"""Tool: create_pdf_report
+
+Generate a styled PDF report from markdown content.
+"""
 
 import os
 import tempfile
 from pathlib import Path
 
 import markdown
+from mcp.types import Tool, TextContent
 from weasyprint import HTML
 
-_LOGO_PATH = Path(__file__).parent / "Dylogy_logo.svg"
+_LOGO_PATH = Path(__file__).resolve().parent.parent / "Dylogy_logo.svg"
 
 
+# ── Tool definition ──────────────────────────────────────────────────────────
+TOOL = Tool(
+    name="create_pdf_report",
+    description=(
+        "Generate a styled PDF report from markdown content. "
+        "The PDF includes the Dylogy logo in the page header and page numbers in the footer. "
+        "Use this to convert any markdown output (e.g. from export_environment_report, "
+        "graph_stats, compare_document_graphs) into a downloadable PDF."
+    ),
+    inputSchema={
+        "type": "object",
+        "properties": {
+            "markdown_content": {
+                "type": "string",
+                "description": "The markdown text to render into a PDF",
+            },
+            "title": {
+                "type": "string",
+                "description": "Document title (used in PDF metadata, defaults to 'Report')",
+            },
+            "filename": {
+                "type": "string",
+                "description": "Output filename (without path). Saved to a temp directory. Defaults to an auto-generated name.",
+            },
+        },
+        "required": ["markdown_content"],
+    },
+)
+
+
+# ── Handler ──────────────────────────────────────────────────────────────────
+async def handle(args: dict) -> list[TextContent]:
+    md = args["markdown_content"]
+    title = args.get("title", "Report")
+    filename = args.get("filename")
+    path = markdown_to_pdf(md, title=title, filename=filename)
+    return [TextContent(type="text", text=f"PDF report saved to: {path}")]
+
+
+# ── Implementation ───────────────────────────────────────────────────────────
 def _get_logo_svg() -> str:
     """Read the Dylogy logo SVG, recoloured for print (dark on white)."""
     svg = _LOGO_PATH.read_text()

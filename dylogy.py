@@ -12,7 +12,7 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-import tool_definitions
+import tools
 
 
 def _log(msg: str) -> None:
@@ -190,13 +190,13 @@ _tools: list[Tool]  = []
 
 @server.list_tools()
 async def list_tools() -> list[Tool]:
-    return _tools + tool_definitions.CUSTOM_TOOLS
+    return _tools + tools.CUSTOM_TOOLS
 
 
 @server.call_tool()
 async def call_tool(name: str, arguments: dict) -> list[TextContent]:
     # Custom tools
-    handler = tool_definitions.CUSTOM_HANDLERS.get(name)
+    handler = tools.CUSTOM_HANDLERS.get(name)
     if handler:
         return await handler(arguments)
 
@@ -238,8 +238,8 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
 async def main() -> None:
     global _spec, _tools
 
-    # Wire auth functions into tool_definitions
-    tool_definitions.init(DYLOGY_API_BASE, get_token, authed_get)
+    # Wire auth functions into tools
+    tools.init(DYLOGY_API_BASE, get_token, authed_get)
 
     _log("Authenticating and fetching OpenAPI spec …")
     async with httpx.AsyncClient(timeout=15) as client:
